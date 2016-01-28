@@ -7,12 +7,8 @@ description: >
   Google search results) and in your feed.xml site description.
 baseurl: ""
 url: ""
-fixedNav: 'true' # true or false
+fixedNav: 'false' # true or false
 theme: grey # green, blue, orange, purple, grey
-twitterUsername:
-githubUsername:
-dribbbleUsername:
-codepenUsername:
 
 # Build settings
 permalink: /:year/:month/:title

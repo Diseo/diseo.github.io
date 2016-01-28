@@ -1,0 +1,25 @@
+.projects_container {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.project_card {
+  width: 21.25rem;
+  height: 21.25rem;
+  margin: 1rem;
+  border-radius: .5rem;
+  float: left;
+  padding: 2rem;
+  @include box-shadow;
+  @include box-shadow-animate;
+  @include trans200;
+}
+
+.project_card_2x {
+  width: 44.5rem;
+}
+
+.project_card_4x {
+  width: 44.5rem;
+  height: 44.5rem;
+}
