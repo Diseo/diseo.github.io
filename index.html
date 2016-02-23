@@ -6,12 +6,22 @@ title: Leonardo Akamatsu
 <div class="projects_container">
 {% for project in site.pages %}
   {% if project.categories %}
-    <a href= "{{ project.permalink }}" class="project_card">
-        <h2> {{ project.title }} </h2>
+    {% if project.weight == 4 %}
+    <a href= "{{ project.permalink }}" class="project_card project_card_4x">
+      {% include project_card.html %}
     </a>
+    {% elsif project.weight == 2%}
+    <a href= "{{ project.permalink }}" class="project_card project_card_2x">
+      {% include project_card.html %}
+    </a>
+    {% else %}
+    <a href= "{{ project.permalink }}" class="project_card project_card_1x">
+      {% include project_card.html %}
+    </a>
+    {% endif %}
   {% endif %}
 {% endfor %}
-<a href= "" class="project_card project_card_4x">
+<a href= "" class="project_card project_card_2x">
     <h2> WBWREFIO </h2>
 </a>
 <a href= "" class="project_card project_card_4x">
@@ -20,13 +30,16 @@ title: Leonardo Akamatsu
 <a href= "" class="project_card project_card_4x">
     <h2> WBWREFIO </h2>
 </a>
-<a href= "" class="project_card project_card_4x">
+<a href= "" class="project_card project_card_2x">
     <h2> WBWREFIO </h2>
 </a>
 <a href= "" class="project_card project_card_2x">
     <h2> LARASR </h2>
 </a>
-<a href= "" class="project_card project_card_2x">
+<a href= "" class="project_card">
+    <h2> ADIUONE </h2>
+</a>
+<a href= "" class="project_card">
     <h2> ADIUONE </h2>
 </a>
 </div>

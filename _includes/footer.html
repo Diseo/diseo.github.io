@@ -5,7 +5,22 @@
     $('.projects_container').masonry({
       // options
       itemSelector: '.project_card',
-      columnWidth: '.project_card'
+      columnWidth: '.project_card_1x'
+    });
+  </script>
+  <script type="text/javascript">
+    $(window).scroll(function() {
+  		if(parseInt($(window).scrollTop())<=200){
+      var windowScroll = 1 - $(window).scrollTop()/200;
+  			$('.photo').css('opacity', windowScroll);
+  			$('.c-header__title').css('opacity', windowScroll);
+  			$('.c-header').css('opacity', windowScroll);
+  		}
+      else {
+        $('.photo').css('opacity', '0');
+        $('.c-header__title').css('opacity', '0');
+        $('.c-header').css('opacity', '0');
+      }
     });
   </script>
 </footer>

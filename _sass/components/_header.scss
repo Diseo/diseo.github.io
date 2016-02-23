@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .c-header {
-  padding-top: 2.4rem; // 75px
+  padding-top: 0em; // 75px
   // padding-bottom: 7.5rem; // 75px
   padding-right: 2.5rem;
   padding-left: 2.5rem;
@@ -14,7 +14,7 @@
 }
 
 .c-header__title {
-  margin-top: 3rem;
+  margin-top: 4.5rem;
   position: relative;
   text-align: center;
   @include ff--mono(500);
@@ -33,10 +33,11 @@
 }
 
 .photo {
+  display: block;
   width: 9rem;
   height: 9rem;
-  margin: 3rem auto -4rem;
+  margin: 2.5rem auto -4.4rem;
   background: #ccc;
   border-radius: 50%;
-  z-index: 1ç
+  @include trans200;
 }

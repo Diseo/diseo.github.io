@@ -9,16 +9,62 @@
 }
 
 .project_card {
-  background: #fff;
+  // background: #fff;
   width: 22.4rem;
   height: 22.4rem;
   margin: 1rem;
   border-radius: .5rem;
   float: left;
-  padding: 2rem;
+  padding: 3rem;
   @include box-shadow;
   @include box-shadow-animate;
-  @include trans200;
+  @include trans500;
+
+  &:hover .card_inner .card_inner_bg {
+    opacity: 0.6;
+  }
+
+  &:hover .card_inner h3 {
+    color: white !important;
+  }
+
+  .card_inner {
+    height: 100%;
+
+    img {
+      // position: absolute;
+      width: 100%;
+      opacity: .5;
+      // height: 100%;
+      z-index: -3;
+    }
+
+    .card_inner_bg {
+      position: absolute;
+      width: 130%;
+      height: 130%;
+      z-index: -2;
+      top: -15%;
+      left: -15%;
+      background-color: #2AF5CF;
+      opacity: 0;
+      @include trans500;
+    }
+
+    h3 {
+      top: 0;
+      left: 0;
+      width: 100%;
+      position: absolute;;
+      margin-top: 5rem;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+  }
+}
+.project_card_1x {
+  width: 22.4rem;
 }
 
 .project_card_2x {
