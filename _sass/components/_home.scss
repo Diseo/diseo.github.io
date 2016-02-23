@@ -1,11 +1,17 @@
 .projects_container {
   margin-left: -1rem;
   margin-right: -1rem;
+  margin-top: 20rem;
+
+  &:first-child {
+    // margin-top: 40rem;
+  }
 }
 
 .project_card {
-  width: 21.25rem;
-  height: 21.25rem;
+  background: #fff;
+  width: 22.4rem;
+  height: 22.4rem;
   margin: 1rem;
   border-radius: .5rem;
   float: left;
@@ -16,10 +22,10 @@
 }
 
 .project_card_2x {
-  width: 44.5rem;
+  width: 46.8rem;
 }
 
 .project_card_4x {
-  width: 44.5rem;
-  height: 44.5rem;
+  width: 46.8rem;
+  height: 46.8rem;
 }

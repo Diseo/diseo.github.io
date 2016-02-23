@@ -4,13 +4,17 @@
 
 .c-header {
   padding-top: 2.4rem; // 75px
-  padding-bottom: 7.5rem; // 75px
+  // padding-bottom: 7.5rem; // 75px
   padding-right: 2.5rem;
   padding-left: 2.5rem;
   background: $t-theme;
+
+  position: fixed;
+  width: 100%;
 }
 
 .c-header__title {
+  margin-top: 3rem;
   position: relative;
   text-align: center;
   @include ff--mono(500);
@@ -31,7 +35,8 @@
 .photo {
   width: 9rem;
   height: 9rem;
-  margin: 2rem auto;
+  margin: 3rem auto -4rem;
   background: #ccc;
   border-radius: 50%;
+  z-index: 1ç
 }

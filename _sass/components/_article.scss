@@ -7,13 +7,13 @@
 }
 
 .c-article__main {
-  max-width: 96rem; // 760px;
+  max-width: 120rem; // 760px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
-  padding-right: 2.5rem;
-  padding-left: 2.5rem;
+  padding-right: 0rem;
+  padding-left: 0rem;
   @include fs--body;
 
   > * {
@@ -24,7 +24,7 @@
   p { max-width: 64rem }
 
   a:not(.c-btn) {
-    text-decoration: underline;
+    // text-decoration: underline;
   }
 
   blockquote {

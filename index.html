@@ -5,13 +5,21 @@ title: Leonardo Akamatsu
 
 <div class="projects_container">
 {% for project in site.pages %}
-  {% assign path = project.path | slice: 1,5 %}
-  {% if path == 'pages' %}
+  {% if project.categories %}
     <a href= "{{ project.permalink }}" class="project_card">
         <h2> {{ project.title }} </h2>
     </a>
   {% endif %}
 {% endfor %}
+<a href= "" class="project_card project_card_4x">
+    <h2> WBWREFIO </h2>
+</a>
+<a href= "" class="project_card project_card_4x">
+    <h2> WBWREFIO </h2>
+</a>
+<a href= "" class="project_card project_card_4x">
+    <h2> WBWREFIO </h2>
+</a>
 <a href= "" class="project_card project_card_4x">
     <h2> WBWREFIO </h2>
 </a>
