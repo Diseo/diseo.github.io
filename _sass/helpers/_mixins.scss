@@ -73,3 +73,11 @@
   -ms-transition:all ease-out 0.5s;
   transition:all ease-out 0.5s;
 }
+
+@mixin trans800 {
+  -webkit-transition:all ease-out 0.8s;
+  -moz-transition:all ease-out 0.8s;
+  -o-transition:all ease-out 0.8s;
+  -ms-transition:all ease-out 0.8s;
+  transition:all ease-out 0.8s;
+}

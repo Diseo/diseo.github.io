@@ -17,7 +17,7 @@ header:after{
 	position: absolute;
 }
 h1{color: #fff; font-family: monospace; font-size: 2.4rem; padding: 10px 0 10px 0; font-weight: lighter; line-height: 2.8rem; overflow: hidden; height: 22px;}
-p{color: #333; font-family: 'Roboto'; font-size: 1.8rem; line-height: 2.8rem}
+p{color: #333; font-family: 'Work Sans'; font-size: 1.8rem; line-height: 2.8rem}
 .trs {-webkit-transition:all ease-out 0.5s;
     -moz-transition:all ease-out 0.5s;
     -o-transition:all ease-out 0.5s;
@@ -150,7 +150,10 @@ li{ color: #777; font-family: 'Roboto';font-size: 2rem; list-style: none; line-h
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
-.full-img{width: 100%;}
+.full-img{
+	width: 100%;
+	height: 1100px;
+}
 .absolute{position: absolute;}
 
 #tinta-preta{
@@ -163,7 +166,7 @@ li{ color: #777; font-family: 'Roboto';font-size: 2rem; list-style: none; line-h
 	margin-top: -57%;
 	position: absolute;
 	z-index: 1;
-	width: 20%;
+	/*width: 20%;*/
 }
 #tinta-azul{
 	-webkit-transform: translate(-50%);
@@ -174,7 +177,7 @@ li{ color: #777; font-family: 'Roboto';font-size: 2rem; list-style: none; line-h
 	margin-left: 34%;
 	margin-top: -30%;
 	position: absolute;
-	width: 24%;
+	/*width: 24%;*/
 }
 #tinta-verm{
 	-webkit-transform: translate(-50%);
@@ -185,7 +188,7 @@ li{ color: #777; font-family: 'Roboto';font-size: 2rem; list-style: none; line-h
 	margin-left: 65%;
 	margin-top: 0%;
 	position: absolute;
-	width: 18%;
+	/*width: 18%;*/
 }
 
 figcaption {display:none;padding-left: 20px;color: #fff; font-family: "Raleway","Lato","arial"; font-size: 22px; background: rgba(1, 144, 238, 0.76); width: 100%; position: absolute; bottom: 0; left: 0; line-height: 55px; height: 55px; z-index: 5}

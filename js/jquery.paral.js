@@ -1,13 +1,13 @@
-$(document).ready(function(){	
+$(document).ready(function(){
 
 	$('img.mt').each(function(){
 		var $obj = $(this);
  		var mtin = parseInt($obj.css("margin-top"));
-		$(window).scroll(function() {		
-			var yPos = mtin -((  (($(window).scrollTop()+$(window).height())/$(document).height()) * $obj.parent().height()) / $obj.data('speed'));  
+		$(window).scroll(function() {
+			var yPos = mtin -((  (($(window).scrollTop()+$(window).height())/$(document).height()) * $obj.parent().height()) / $obj.data('speed'));
  			var mtpos = yPos + 'px';
 			$obj.css('margin-top', mtpos);
-		}); 
+		});
 	});
 
 	$(window).scroll(function() {

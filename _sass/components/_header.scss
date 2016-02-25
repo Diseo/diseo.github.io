@@ -3,13 +3,14 @@
    ========================================================================== */
 
 .c-header {
-  padding-top: 0em; // 75px
+  top: 0;
+  padding-top: 0.1em; // 75px
   // padding-bottom: 7.5rem; // 75px
   padding-right: 2.5rem;
   padding-left: 2.5rem;
   background: $t-theme;
 
-  position: fixed;
+  // position: fixed;
   width: 100%;
 }
 
@@ -36,8 +37,9 @@
   display: block;
   width: 9rem;
   height: 9rem;
-  margin: 2.5rem auto -4.4rem;
+  margin: 0rem auto;
   background: #ccc;
   border-radius: 50%;
+  transform: translateY(4rem);
   @include trans200;
 }
