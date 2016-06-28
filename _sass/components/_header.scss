@@ -8,19 +8,21 @@
   // padding-bottom: 7.5rem; // 75px
   padding-right: 2.5rem;
   padding-left: 2.5rem;
-  background: $t-theme;
+  background: $c__white;
 
   // position: fixed;
   width: 100%;
 }
 
 .c-header__title {
-  margin-top: 4.5rem;
+  width: 120rem;
+  margin: 3.6rem auto 0 auto;
+  padding: 0 $c_card_padding;
   position: relative;
-  text-align: center;
+  text-align: left;
   @include ff--mono(500);
   @include fs--title;
-  color: $c__white;
+  color: $c__black;
 
   &:after {
     margin-left: .5rem;
@@ -34,10 +36,9 @@
 }
 
 .photo {
-  display: block;
+  display: none;
   width: 9rem;
   height: 9rem;
-  margin: 0rem auto;
   background: #ccc;
   border-radius: 50%;
   transform: translateY(4rem);

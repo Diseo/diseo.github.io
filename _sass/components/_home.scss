@@ -1,7 +1,6 @@
 .projects_container {
-  margin-left: -1rem;
-  margin-right: -1rem;
-  margin-top: 5rem;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
 
   &:first-child {
     // margin-top: 40rem;
@@ -10,18 +9,18 @@
 
 .project_card {
   // background: #fff;
-  width: 22.4rem;
-  height: 22.4rem;
-  margin: 1rem;
+  width: $c_card;
+  height: $c_card;
+  margin: 0.5rem;
   border-radius: .5rem;
   float: left;
-  padding: 3rem;
-  @include box-shadow;
+  padding: $c_card_padding;
   @include box-shadow-animate;
   @include trans500;
 
   &:hover .card_inner .card_inner_bg {
     opacity: 1;
+    @include trans800;
   }
 
   &:hover .card_inner h3 {
@@ -37,23 +36,23 @@
 
     .card_inner_bg {
       position: absolute;
-      width: 140%;
-      height: 140%;
+      width: 116%;
+      height: 116%;
       z-index: -2;
-      top: -20%;
-      left: -20%;
+      top: -8%;
+      left: -8%;
       background-color: #2AF5CF;
       opacity: 0;
       @include trans200;
     }
 
     h3 {
-      top: 0;
-      left: 0;
-      width: 100%;
+      bottom: 4rem;
+      left: 4rem;
+      width: calc(100% - 4rem);
       position: absolute;;
       margin-top: 1rem;
-      text-align: center;
+      text-align: left;
       text-transform: uppercase;
       font-size: 2rem;
       color: white;
@@ -64,32 +63,32 @@
   }
 }
 .project_card_1x {
-  width: 22.4rem;
+  width: $c_card;
 }
 
 .project_card_2x {
-  width: 46.8rem;
+  width: 2 * $c_card + 1rem;
 
   .card_inner {
 
     .card_inner_bg {
-      width: 120%;
-      left: -10%;
+      width: 108%;
+      left: -4%;
     }
   }
 }
 
 .project_card_4x {
-  width: 46.8rem;
-  height: 46.8rem;
+  width: 2 * $c_card + 1rem;
+  height: 2 * $c_card + 1rem;
 
   .card_inner {
 
     .card_inner_bg {
-      width: 120%;
-      height: 120%;
-      top: -10%;
-      left: -10%;
+      width: 108%;
+      height: 108%;
+      top: -4%;
+      left: -4%;
     }
   }
 }
@@ -104,10 +103,11 @@
 
 .img_cover_hover {
   position: absolute;
-  top: 3rem;
-  width: calc(100% - 6rem);
-  height: calc(100% - 6rem);
+  top: $c_card_padding;
+  width: calc(100% - 2rem);
+  height: calc(100% - 2rem);
   background-size: cover;
   background-position: center;
   opacity: 0;
+  @include trans500;
 }
