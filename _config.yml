@@ -8,7 +8,6 @@ description: >
 baseurl: ""
 url: ""
 fixedNav: 'false' # true or false
-theme: grey # green, blue, orange, purple, grey
 
 # Build settings
 permalink: /:year/:month/:title
