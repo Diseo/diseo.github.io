@@ -1,8 +1,10 @@
 
 <div class="card_inner">
   <div class="img_cover" style="background-image: url('/assets/proj_{{ project.permalink }}.jpg');"></div>
-  <div class="img_cover_hover" style="background-image: url('/assets/proj_{{ project.permalink }}_color.jpg');"></div>
   <!-- <img src="/assets/proj_emb_standard.jpg"/> -->
-  <div class="card_inner_bg" style="background-color: {{ project.bg_color }}"></div>
-  <h3> {{ project.title }} </h3>
+  <div class="card_inner_bg"></div>
+  <div class="card_labels">
+    <h3> {{ project.title }} </h3>
+    <p> {{ project.categories }} </p>
+  </div>
 </div>

@@ -20,8 +20,8 @@
   padding: 0 $c_card_padding;
   position: relative;
   text-align: left;
-  @include ff--mono(500);
   @include fs--title;
+  font-weight: 500;
   color: $c__black;
 
   &:after {
