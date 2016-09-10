@@ -33,6 +33,8 @@
 
   .card_inner {
     height: 100%;
+    display: flex;
+    align-items: center;
 
     .card_inner_bg {
       position: absolute;
@@ -47,14 +49,14 @@
     }
 
     h3 {
-      bottom: 4rem;
-      left: 4rem;
-      width: calc(100% - 4rem);
+      // bottom: 4rem;
+      // left: 4rem;
+      width: calc(100% - 2rem);
       position: absolute;;
-      margin-top: 1rem;
-      text-align: left;
+      // margin-top: 1rem;
+      text-align: center;
       text-transform: uppercase;
-      font-size: 2rem;
+      font-size: 2.6rem;
       color: white;
       opacity: 0;
       font-weight: 500;
