@@ -2,10 +2,20 @@
 layout: default
 ---
 <article class="c-article">
-  <header class="c-header c-article__header">
-      <h1 class="c-header__title">Leonardo Akamatsu</h1>
-    <img id="foto" class="photo" src="/assets/minha_foto.jpg"/>
-    <!-- {% include navigation.html %} -->
+  <header class="c-header c-page__header">
+    <div class="u-container">
+      <div class="c-page__cover" style="background:{{ page.color }}">
+        <a href="{{ site.baseurl }}/">
+          <img class="back"/>
+        </a>
+        <h1 class="c-project__title">{{ page.title }}</h1>
+      </div>
+
+      {% if page.logo %}
+      <img class="project_logo" src="{{ site.baseurl }}/assets/{{ page.permalink }}/{{ page.logo }}"/>
+      {% endif %}
+
+    </div>
   </header>
 
   <div class="c-article__main">
