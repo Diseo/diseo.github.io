@@ -3,32 +3,28 @@
    ========================================================================== */
 
 .c-header {
+  width: 100%;
   top: 0;
+  position: fixed;
   // padding-top: 0.1em; // 75px
   // padding-bottom: 7.5rem; // 75px
   // padding-right: 2.5rem;
   // padding-left: 2.5rem;
   // background: $c__white;
-
   // position: fixed;
-  width: 100%;
 }
 
 .c-article__header {
   display: inline-block;
 }
 
-.c-page__header {
-  height: $c_page_header;
-  margin-bottom: 4rem;
-}
-
 .c-page__cover {
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   background-color: #f9eed8;
-  height: $c_page_header;
+  height: 22rem;
+  z-index: -1;
 }
 
 .c-header__title {
@@ -55,14 +51,24 @@
   }
 }
 
-.c-project__title {
-  margin-top: 2rem;
-  margin-left: -2rem;
-  text-align: left;
-  @include fs--title;
-  font-size: 5.6rem;
-  font-weight: 500;
-  color: $c__black;
+.project_title_group {
+  .c-project__title {
+    margin-top: 2rem;
+    margin-left: -2rem;
+    text-align: left;
+    @include fs--title;
+    font-size: 5.6rem;
+    font-weight: 500;
+    color: $c__black;
+  }
+
+  .c-project__logo {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 2rem;
+    z-index: 1;
+  }
 }
 
 .photo {
@@ -70,7 +76,7 @@
   width: 6rem;
   height: 6rem;
   float: left;
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   margin-left: -3rem;
   background: #fff;
   border-radius: 50%;
@@ -78,20 +84,24 @@
 }
 
 .back {
-  // display: none;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 6rem;
   height: 6rem;
-  // float: left;
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   margin-left: -3rem;
   background: #fff;
   border-radius: 50%;
+  @include flat-shadow-animate;
   @include trans200;
-}
 
-.project_logo {
-  display: block;
-  position: relative;
-  margin: 2rem auto;
-  z-index: 1;
+  svg {
+    opacity: 0.5;
+  }
+
+  &:hover svg {
+    opacity: 1;
+  }
 }

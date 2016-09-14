@@ -10,16 +10,14 @@
   </script>
   <script type="text/javascript">
     $(window).scroll(function() {
-  		if(parseInt($(window).scrollTop())<=200){
-      var windowScroll = 1 - $(window).scrollTop()/200;
+  		if(parseInt($(window).scrollTop())<=150){
+      var windowScroll = 1 - $(window).scrollTop()/150;
+  			$('.project_title_group').css('opacity', windowScroll);
   			$('.photo').css('opacity', windowScroll);
-  			$('.c-header__title').css('opacity', windowScroll);
-  			// $('.c-header').css('opacity', windowScroll);
   		}
       else {
+        $('.project_title_group').css('opacity', '0');
         $('.photo').css('opacity', '0');
-        $('.c-header__title').css('opacity', '0');
-        // $('.c-header').css('opacity', '0');
       }
     });
   </script>

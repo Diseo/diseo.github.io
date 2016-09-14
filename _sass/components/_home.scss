@@ -1,6 +1,7 @@
 .projects_container {
   margin-left: -$c_card_margin;
   margin-right: -$c_card_margin;
+margin-top: -14rem;
 
   &:first-child {
     // margin-top: 40rem;
@@ -46,29 +47,33 @@
       bottom: 2rem;
       left: 0rem;
       @include trans500;
+    }
 
-      h3 {
-        @include fs--title;
-        font-weight: 600;
-        width: 80%;
-        position: relative;
-        font-size: 3rem;
-        color: black;
-        line-height: 1;
-      }
+    h3 {
+      @include fs--title;
+      font-weight: 600;
+      width: 70%;
+      position: relative;
+      font-size: 3rem;
+      color: black;
+      line-height: 1;
+    }
 
-      p {
-        color: black;
-      }
+    p {
+      color: black;
+    }
 
-      span {
-        background: #000;
-        top: -1.5rem;
-        height: 5px;
-        left: 0;
-        position: absolute;
-        width: 40px;
-      }
+    span {
+      background: #000;
+      top: -1.5rem;
+      height: 5px;
+      left: 0;
+      position: absolute;
+      width: 40px;
+    }
+
+    .card_labels_about p {
+      margin-top: 1rem;
     }
   }
 }
