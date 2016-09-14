@@ -6,62 +6,59 @@ title: Leonardo Akamatsu
   <header class="c-header c-article__header">
     <div class="u-container">
       <img id="foto" class="photo" src="/assets/minha_foto.jpg"/>
-      <!-- <h1 class="c-header__title">Leonardo Akamatsu</h1> -->
     </div>
-    <!-- {% include navigation.html %} -->
   </header>
 
   <div class="c-article__main">
-    {{ content }}
 
-<div class="projects_container">
-{% assign sorted_pages = site.pages | sort:"priority" | reverse %}
-{% for project in sorted_pages %}
-  {% if project.categories %}
-    {% if project.weight == 4 %}
-    {% if project.categories == "sobre" %}
-    <a class="project_card project_card_4x">
-      {% include about_card.html %}
-    </a>
-    {% else %}
-    <a href= "{{ project.permalink }}" class="project_card project_card_4x">
-      {% include project_card.html %}
-    </a>
-    {% endif %}
-    {% elsif project.weight == 2%}
-    <a href= "{{ project.permalink }}" class="project_card project_card_2x">
-      {% include project_card.html %}
-    </a>
-    {% else %}
-    <a href= "{{ project.permalink }}" class="project_card project_card_1x">
-      {% include project_card.html %}
-    </a>
-    {% endif %}
-  {% endif %}
-{% endfor %}
-<a href= "" class="project_card">
-  <div class="card_inner" style="background-color: #fbaf37">
-    <div class="card_inner_bg">
-      <div class="card_labels">
-        <span style="background-color: #fbaf37"></span>
-        <h3> ausaheoibew </h3>
-        <p> gráfico </p>
+    <div class="projects_container">
+    {% assign sorted_pages = site.pages | sort:"priority" | reverse %}
+    {% for project in sorted_pages %}
+      {% if project.categories %}
+        {% if project.weight == 4 %}
+        {% if project.categories == "sobre" %}
+        <a class="project_card project_card_4x">
+          {% include about_card.html %}
+        </a>
+        {% else %}
+        <a href= "{{ project.permalink }}" class="project_card project_card_4x">
+          {% include project_card.html %}
+        </a>
+        {% endif %}
+        {% elsif project.weight == 2%}
+        <a href= "{{ project.permalink }}" class="project_card project_card_2x">
+          {% include project_card.html %}
+        </a>
+        {% else %}
+        <a href= "{{ project.permalink }}" class="project_card project_card_1x">
+          {% include project_card.html %}
+        </a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    <a href= "" class="project_card">
+      <div class="card_inner" style="background-color: #fbaf37">
+        <div class="card_inner_bg">
+          <div class="card_labels">
+            <span style="background-color: #fbaf37"></span>
+            <h3> ausaheoibew </h3>
+            <p> gráfico </p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</a>
-<a href= "" class="project_card project_card_2x">
-  <div class="card_inner" style="background-color: #CE8190">
-    <div class="card_inner_bg">
-      <div class="card_labels">
-        <span style="background-color: #CE8190"></span>
-        <h3> wenbavoiem </h3>
-        <p> gráfico </p>
+    </a>
+    <a href= "" class="project_card project_card_2x">
+      <div class="card_inner" style="background-color: #CE8190">
+        <div class="card_inner_bg">
+          <div class="card_labels">
+            <span style="background-color: #CE8190"></span>
+            <h3> wenbavoiem </h3>
+            <p> gráfico </p>
+          </div>
+        </div>
       </div>
+    </a>
     </div>
-  </div>
-</a>
-</div>
 
-</div>
+  </div>
 </article>
