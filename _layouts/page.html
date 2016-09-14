@@ -5,11 +5,6 @@ layout: default
   <div class="u-container"><div class="c-page__cover" style="background:{{ page.color }}"></div></div>
   <header class="c-header c-page__header">
     <div class="u-container">
-      <a class="back" href="{{ site.baseurl }}/">
-        <svg style="width:36px;height:36px" viewBox="0 0 24 24">
-          <path fill="{{ page.color page}}" d="M18.41,16.59L13.82,12L18.41,7.41L17,6L11,12L17,18L18.41,16.59M6,6H8V18H6V6Z" />
-        </svg>
-      </a>
       <div class="project_title_group">
         {% if page.logo %}
         <img class="c-project__logo" src="{{ site.baseurl }}/assets/{{ page.permalink }}/{{ page.logo }}"/>
@@ -17,6 +12,11 @@ layout: default
         <h1 class="c-project__title">{{ page.title }}</h1>
         {% endif %}
       </div>
+      <a class="back" href="{{ site.baseurl }}/">
+        <svg style="width:36px;height:36px" viewBox="0 0 24 24">
+          <path fill="{{ page.color page}}" d="M18.41,16.59L13.82,12L18.41,7.41L17,6L11,12L17,18L18.41,16.59M6,6H8V18H6V6Z" />
+        </svg>
+      </a>
     </div>
   </header>
 
