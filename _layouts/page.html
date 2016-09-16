@@ -21,6 +21,17 @@ layout: default
   </header>
 
   <div class="c-article__main">
+    <div class="project_info">
+      <ul>
+        <li>categoria(s): {{ page.categories }}</li>
+        {% for info in page.details %}
+        <li>{{ info.item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="project_content">
     {{ content }}
+    </div>
   </div>
+
 </article>

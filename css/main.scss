@@ -25,16 +25,9 @@
   'components/social',
   'components/buttons',
   'components/footer',
-  'components/home';
-
-// Themes
-@import
-  'themes/blue',
-  'themes/green',
-  'themes/grey',
-  'themes/orange',
-  'themes/purple';
-
+  'components/home',
+  'components/project';
+  
 // Vendor
 @import
   'vendor/syntax-highlighting';

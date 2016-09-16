@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "hi, my name is leonardo akamatsu"
+title:  "leonardo akamatsu"
 categories: sobre
 permalink: sobre mim
 

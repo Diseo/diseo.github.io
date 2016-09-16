@@ -10,15 +10,15 @@ $(document).ready(function(){
 		});
 	});
 
-	$(window).scroll(function() {
-		if(parseInt($(window).scrollTop())>=100){
-			$('header').css('width', '50px').css('margin', '10px');
-			$('h1').text('LA');
-			$('h1').css('padding-left', '10px').css('padding-right', '10px');
-
-		}else{
-			$('header').css('width', '100%').css('margin', '0px');
-			$('h1').text('Leonardo Akamatsu');
-		}
-	});
+	// $(window).scroll(function() {
+	// 	if(parseInt($(window).scrollTop())>=100){
+	// 		$('header').css('width', '50px').css('margin', '10px');
+	// 		$('h1').text('LA');
+	// 		$('h1').css('padding-left', '10px').css('padding-right', '10px');
+	//
+	// 	}else{
+	// 		$('header').css('width', '100%').css('margin', '0px');
+	// 		$('h1').text('Leonardo Akamatsu');
+	// 	}
+	// });
 });
