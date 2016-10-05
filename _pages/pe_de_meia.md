@@ -9,14 +9,8 @@ priority: 10
 color: '#2dccad'
 ---
 
-# header1
-## header2
+Pé de Meia is a finance manager for android mobiles, developed for young brazilians with bad financial habits, but with the wish to change them. The user can define objectives and wishes as milestones, and the app track their progress showing how much money they already saved/still need to accomplish these objectives.
 
-<figure><img src="{{ site.baseurl }}/assets/pedemeia/proj_pe_de_meia.png"/></figure>
+<figure><img src="{{ site.baseurl }}/assets/proj_pe_de_meia.png"/></figure>
 
-# ashieosa
-
-ahiuhsuieoaseiebuwq
-<img src="{{ site.baseurl }}/assets/proj_pe_de_meia.png"/>
-
-ahusiehuisae
+Pé de Meia is a finance manager for android mobiles, developed for young brazilians with bad financial habits, but with the wish to change them. The user can define objectives and wishes as milestones, and the app track their progress showing how much money they already saved/still need to accomplish these objectives. Pé de Meia is a finance manager for android mobiles, developed for young brazilians with bad financial habits, but with the wish to change them. The user can define objectives and wishes as milestones, and the app track their progress showing how much money they already saved/still need to accomplish these objectives.

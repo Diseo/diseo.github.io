@@ -8,5 +8,3 @@ weight: 2
 priority: 9
 color: '#CE8190'
 ---
-
-#{{ page.title }}

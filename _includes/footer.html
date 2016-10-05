@@ -14,10 +14,12 @@
       var windowScroll = 1 - $(window).scrollTop()/150;
   			$('.project_title_group').css('opacity', windowScroll);
   			$('.photo').css('opacity', windowScroll);
+  			$('.c-page__cover').css('opacity', windowScroll + 0.1);
   		}
       else {
         $('.project_title_group').css('opacity', '0');
         $('.photo').css('opacity', '0');
+        $('.c-page__cover').css('opacity', '0.1');
       }
     });
   </script>
