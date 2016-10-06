@@ -20,15 +20,6 @@ margin-top: -14rem;
   // @include box-shadow-animate;
   @include trans500;
 
-  &:hover .card_inner .card_inner_bg {
-    opacity: 1;
-    @include trans500;
-  }
-
-  &:hover .card_inner .card_labels {
-    left: -1rem;
-  }
-
   .card_inner {
     height: 100%;
     position: relative;
@@ -40,19 +31,21 @@ margin-top: -14rem;
       height: 100%;
       background-color: rgba(255,249,237,0.4);
       opacity: 0;
+      @include trans500;
     }
 
     .card_labels {
       position: absolute;
       bottom: 2rem;
       left: 0rem;
+      opacity: 0;
       @include trans500;
     }
 
     h3 {
       @include fs--title;
       font-weight: 600;
-      text-shadow: 0 0.2rem 0 rgba(255,249,237,0.4);
+      // text-shadow: 0 0.2rem 0 rgba(255,249,237,0.4);
       width: 70%;
       position: relative;
       font-size: 3rem;
@@ -72,7 +65,6 @@ margin-top: -14rem;
       background: #000;
       top: -1.5rem;
       height: 5px;
-      left: 0;
       position: absolute;
       width: 40px;
     }
@@ -102,17 +94,44 @@ margin-top: -14rem;
   background-size: cover;
   background-position: center;
 }
-
-@media all and (max-width: 640px){
-  .card_inner_bg {
-    opacity: 0
-  }
-  .card_labels {
-    left: 1rem;
-
-    &:hover {
-      left: 1rem;
+@media all and (min-width: 800px){
+  .project_card {
+    &:hover .card_inner .card_inner_bg {
+      opacity: 1;
     }
 
+    &:hover .card_inner .card_labels {
+      left: -1rem;
+      opacity: 1;
+    }
+  }
+}
+
+@media all and (max-width: 800px){
+  .project_card .card_inner .card_labels {
+    left: 1.5rem;
+    bottom: -4.5rem;
+    opacity: 1;
+
+    h3 {
+      width: 100%;
+    }
+  }
+
+  .card_labels_about {
+    margin: 0 1.5rem;
+  }
+
+  .project_card_1x, .project_card_2x, .project_card_4x {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 5rem;
+  }
+
+  .projects_container {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -9rem;
   }
 }

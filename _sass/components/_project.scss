@@ -1,11 +1,132 @@
 // ==========================
 
+.project_title_group {
+
+  .c-project__title {
+    position: absolute;
+    bottom: 1.5rem;
+    margin-top: 15rem;
+    margin-left: -2rem;
+    text-align: left;
+    @include fs--title;
+    line-height: 0.9;
+    font-size: 5.6rem;
+    font-weight: 500;
+    color: $c__black;
+  }
+
+  .c-project__logo {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 2rem;
+    z-index: 1;
+  }
+}
+
+.c-project__cover {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #f9eed8;
+  height: 18rem;
+  z-index: -1;
+}
+
+.photo {
+  // display: none;
+  width: 6rem;
+  height: 6rem;
+  float: left;
+  margin-top: 2.5rem;
+  margin-left: -3rem;
+  background: #fff;
+  border-radius: 50%;
+  @include trans200;
+}
+
+.back {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  height: 6rem;
+  top: 2.5rem;
+  margin-left: -3rem;
+  background: #fff;
+  border-radius: 50%;
+  @include flat-shadow-animate;
+  @include trans200;
+
+  svg {
+    width: 3.6rem;
+    height: 3.6rem;
+    opacity: 0.5;
+  }
+
+  &:hover svg {
+    opacity: 1;
+  }
+}
+
 .project_info {
   float: left;
   width: 25%;
+  font-family: 'Rubik', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 500;
 }
 
 .project_content {
   float: left;
   width: 75%;
+
+  p {
+    margin-bottom: 1.6rem;
+  }
+
+  figure {
+    padding-top: 1.6rem;
+    margin-bottom: 2.8rem;
+  }
+}
+
+@media all and (max-width: 800px){
+  .photo, .back {
+    margin-left: 1.5rem;
+    height: 5.5rem;
+    width: 5.5rem;
+    top: 1.5rem;
+  }
+
+  .back svg {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .project_title_group .c-project__title {
+    margin-top: 15rem;
+    font-size: 4.2rem;
+    margin-left: 1rem;
+  }
+
+  .c-project__logo {
+    width: 80%;
+  }
+
+  .project_info, .project_content {
+    width: 100%;
+  }
+
+  .project_info {
+    margin: 0 1.5rem;
+  }
+
+  .c-article__main {
+    padding-top: 20rem;
+  }
+
+  .project_content p {
+    margin: 0 1.5rem;
+  }
 }
