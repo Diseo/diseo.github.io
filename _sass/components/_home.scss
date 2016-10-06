@@ -38,7 +38,7 @@ margin-top: -14rem;
       position: absolute;
       width: 100%;
       height: 100%;
-      background-color: rgba(255,255,255,0.6);
+      background-color: rgba(255,249,237,0.4);
       opacity: 0;
     }
 
@@ -52,6 +52,7 @@ margin-top: -14rem;
     h3 {
       @include fs--title;
       font-weight: 600;
+      text-shadow: 0 0.2rem 0 rgba(255,249,237,0.4);
       width: 70%;
       position: relative;
       font-size: 3rem;
@@ -100,4 +101,18 @@ margin-top: -14rem;
   position: absolute;;
   background-size: cover;
   background-position: center;
+}
+
+@media all and (max-width: 640px){
+  .card_inner_bg {
+    opacity: 0
+  }
+  .card_labels {
+    left: 1rem;
+
+    &:hover {
+      left: 1rem;
+    }
+
+  }
 }
