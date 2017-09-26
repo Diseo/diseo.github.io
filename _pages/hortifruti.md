@@ -1,10 +1,10 @@
 ---
 layout: page
-title:  "Hortifruti"
+title:  "app adama hortifruti"
 categories: UI, Gráfico
 permalink: hortifruti
 
-weight: 2
+weight: 4
 priority: 10
 color: '#00a351'
 ---

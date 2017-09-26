@@ -1,10 +1,10 @@
 ---
 layout: page
-title:  "Pé de meia"
+title:  "app pé de meia"
 categories: UI, Gráfico
 permalink: pe_de_meia
 
-weight: 2
+weight: 4
 priority: 10
 color: '#2dccad'
 

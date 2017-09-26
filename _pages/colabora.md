@@ -1,10 +1,10 @@
 ---
 layout: page
-title:  "Colabora"
+title:  "colabora"
 categories: gráfico
 permalink: colabora
 
-weight: 2
+weight: 1
 priority: 9
 color: '#CE8190'
 ---

@@ -1,10 +1,10 @@
 ---
 layout: page
-title:  "Bicicleta"
+title:  "bicicleta"
 categories: produto
 permalink: bicicleta
 
-weight: 2
+weight: 1
 priority:
 color: '#f6920a'
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Twi"
+title:  "twi"
 categories: gráfico
 permalink: twi
 
@@ -19,3 +19,5 @@ O projeto Twi é um jogo desenvolvido em Processing para a disciplina Fundamento
 <figure><img src="{{ site.baseurl }}/assets/twi/twi_anim.gif"/></figure>
 
 O jogador controla o passarinho roxo, o Twi, que precisa de auxílio para voar e atacar o inimigo. Os pontos são acumulados de acordo com o tempo de vôo mais a quantidade de inimigos derrubados.
+
+<figure><img src="{{ site.baseurl }}/assets/twi/twi_fruta.jpg"/></figure>

@@ -1,10 +1,11 @@
 ---
 layout: page
-title:  "Levar"
+title:  "levar"
 categories: produto
 permalink: levar
 
-weight: 2
+weight: 4
+priority: 10
 color: '#0099b5'
 ---
 

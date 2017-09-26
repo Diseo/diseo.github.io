@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Cadeira Alfa"
+title:  "cadeira alfa"
 categories: Produto
 permalink: cadeira_alfa
 
