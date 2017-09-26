@@ -6,7 +6,7 @@ permalink: tipografia
 
 weight: 2
 priority: 10
-color: '#f9eed8'
+color: '#b6a1ed'
 ---
 
 <figure><img src="{{ site.baseurl }}/assets/tipografia/composicao2.jpg"/></figure>

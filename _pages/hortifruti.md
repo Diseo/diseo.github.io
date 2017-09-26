@@ -4,7 +4,7 @@ title:  "Hortifruti"
 categories: UI, Gráfico
 permalink: hortifruti
 
-weight: 4
+weight: 2
 priority: 10
 color: '#00a351'
 ---

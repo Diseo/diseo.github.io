@@ -14,4 +14,8 @@ details:
 
 ---
 
-Projeto de jogo programado em Processing, desenvolvido em disciplina
+O projeto Twi é um jogo desenvolvido em Processing para a disciplina Fundamentos da Computação I do curso de Design da FAUUSP.
+
+<figure><img src="{{ site.baseurl }}/assets/twi/twi_anim.gif"/></figure>
+
+O jogador controla o passarinho roxo, o Twi, que precisa de auxílio para voar e atacar o inimigo. Os pontos são acumulados de acordo com o tempo de vôo mais a quantidade de inimigos derrubados.
