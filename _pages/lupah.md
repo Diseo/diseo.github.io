@@ -6,7 +6,7 @@ categories:
 permalink: lupah
 
 weight: 1
-priority: 1
+priority: 2
 color: '#2dccad'
 
 details:

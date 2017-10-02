@@ -8,7 +8,7 @@ categories:
 permalink: raposo
 
 weight: 1
-priority: 11
+priority: 10
 color: '#ea5933'
 
 logo: 'raposo_logo.png'

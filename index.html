@@ -12,19 +12,18 @@ title: Leonardo Akamatsu
   <div class="c-article__main">
 
     <div class="projects_container">
+      {% for project in site.pages %}{% if project.sobre %}
+        <a class="project_card project_card_4x">
+          {% include about_card.html %}
+        </a>
+      {% endif %}{% endfor %}
     {% assign sorted_pages = site.pages | sort:"priority" | reverse %}
     {% for project in sorted_pages %}
       {% if project.categories %}
         {% if project.weight == 4 %}
-        {% if project.categories == "sobre" %}
-        <a class="project_card project_card_4x">
-          {% include about_card.html %}
-        </a>
-        {% else %}
         <a href= "{{ project.permalink }}" class="project_card project_card_4x">
           {% include project_card.html %}
         </a>
-        {% endif %}
         {% elsif project.weight == 2%}
         <a href= "{{ project.permalink }}" class="project_card project_card_2x">
           {% include project_card.html %}

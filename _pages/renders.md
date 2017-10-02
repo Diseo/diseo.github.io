@@ -1,11 +1,12 @@
 ---
 layout: page
 title:  "estudos de render"
-categories: Produto
+categories:
+  - item: render
 permalink: renders
 
 weight: 1
-priority: 10
+priority: 1
 color: '#f6920a'
 ---
 

@@ -4,9 +4,9 @@ title:  "app image recognition"
 categories:
   - item: interface
   - item: ux
-permalink: varejo
+permalink: app_image
 
-weight: 1
+weight: 2
 priority: 10
 color: '#b53334'
 ---

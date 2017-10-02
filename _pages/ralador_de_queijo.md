@@ -6,7 +6,7 @@ categories:
 permalink: ralador_de_queijo
 
 weight: 1
-priority: 1
+priority: -2
 color: '#ffbd55'
 
 details:
