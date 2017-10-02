@@ -1,7 +1,9 @@
 ---
 layout: page
 title:  "parque minhocão"
-categories: UI, Gráfico
+categories:
+  - item: gráfico
+  - item: produto
 permalink: minhocao
 
 weight: 1

@@ -1,7 +1,8 @@
 ---
 layout: page
 title:  "exercícios tipográficos"
-categories: tipografia
+categories:
+  - item: tipografia
 permalink: tipografia
 
 weight: 1

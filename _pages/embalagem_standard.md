@@ -1,15 +1,20 @@
 ---
 layout: page
 title:  "embalagem de vidro standard"
-categories: produto
+categories:
+  - item: produto
 permalink: embalagem_standard
 
 weight: 1
 color: '#e9a17c'
 
 details:
- - item: 'ano: 2012'
- - item: 'equipe: Caio Reis, Lucas Neumann, Tadeu Omae'
+  - item:
+      key: ano
+      value: 2012
+  - item:
+      key: equipe
+      value: Caio Reis, Lucas Neumann, Tadeu Omae
 
 ---
 <head>

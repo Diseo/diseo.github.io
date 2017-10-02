@@ -1,7 +1,9 @@
 ---
 layout: page
 title:  "app adama hortifruti"
-categories: UI, Gráfico
+categories:
+  - item: interface
+  - item: ux
 permalink: hortifruti
 
 weight: 4

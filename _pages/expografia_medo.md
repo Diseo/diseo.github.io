@@ -1,7 +1,9 @@
 ---
 layout: page
 title:  "expografia: medo"
-categories: UI, Gráfico
+categories:
+  - item: exposição
+  - item: gráfico
 permalink: expografia_medo
 
 weight: 1

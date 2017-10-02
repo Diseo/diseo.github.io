@@ -1,7 +1,9 @@
 ---
 layout: page
 title:  "app rede atendimento"
-categories: UI, Gráfico
+categories:
+  - item: ux
+  - item: interface
 permalink: userede
 
 weight: 1

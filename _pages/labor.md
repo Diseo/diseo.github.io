@@ -1,7 +1,9 @@
 ---
 layout: page
 title:  "mesa labor"
-categories: UI, Gráfico
+categories:
+ - item: produto
+ - item: ergonomia
 permalink: labor
 
 weight: 1

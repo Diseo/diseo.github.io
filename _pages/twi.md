@@ -1,16 +1,21 @@
 ---
 layout: page
 title:  "twi"
-categories: gráfico
+categories:
+  - item: programação
+  - item: gráfico
 permalink: twi
 
 weight: 1
 color: '#997fb7'
 
 details:
- - item: 'âmbito: acadêmico'
- - item: 'ano: 2010'
- - item: 'equipe: Gabrielle Ery Higa'
+  - item:
+      key: ano
+      value: 2010
+  - item:
+      key: equipe
+      value: Gabrielle Ery Higa
 
 ---
 

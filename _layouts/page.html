@@ -23,9 +23,20 @@ layout: default
   <div class="c-article__main">
     <div class="project_info">
       <ul>
-        <li>categoria(s): {{ page.categories }}</li>
-        {% for info in page.details %}
-        <li>{{ info.item }}</li>
+        <li><span>
+          {% if page.categories.size == 1 %}
+            categoria
+          {% else %}
+            categorias
+          {% endif %}
+        </span>
+          {% for category in page.categories %} {% if forloop.last == false %}
+              {{ category.item }},
+            {% else %}
+              {{ category.item }}
+          {% endif %} {% endfor %}</li>
+        {% for detail in page.details %}
+        <li><span>{{ detail.item.key }}</span>  {{ detail.item.value }}</li>
         {% endfor %}
       </ul>
     </div>

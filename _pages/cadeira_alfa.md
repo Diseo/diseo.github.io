@@ -1,7 +1,9 @@
 ---
 layout: page
 title:  "cadeira alfa"
-categories: Produto
+categories:
+  - item: produto
+  - item: render
 permalink: cadeira_alfa
 
 weight: 1

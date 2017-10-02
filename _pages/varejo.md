@@ -1,7 +1,9 @@
 ---
 layout: page
 title:  "app image recognition"
-categories: UI, Gráfico
+categories:
+  - item: interface
+  - item: ux
 permalink: varejo
 
 weight: 1

@@ -1,7 +1,8 @@
 ---
 layout: page
 title:  "colabora"
-categories: gráfico
+categories:
+  - item: gráfico
 permalink: colabora
 
 weight: 1

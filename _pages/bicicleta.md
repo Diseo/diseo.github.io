@@ -1,7 +1,9 @@
 ---
 layout: page
 title:  "bicicleta"
-categories: produto
+categories:
+  - item: produto
+  - item: render
 permalink: bicicleta
 
 weight: 1

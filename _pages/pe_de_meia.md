@@ -1,7 +1,9 @@
 ---
 layout: page
 title:  "app pé de meia"
-categories: UI, Gráfico
+categories:
+  - item: interface
+  - item: ux
 permalink: pe_de_meia
 
 weight: 4
@@ -9,8 +11,12 @@ priority: 10
 color: '#2dccad'
 
 details:
- - item: 'ano: 2012'
- - item: 'equipe: Caio Reis, Guilherme Queiroz, Robson Tomoki, Vinicius de Jesus'
+  - item:
+      key: ano
+      value: 2012
+  - item:
+      key: equipe
+      value: Caio Reis, Guilherme Queiroz, Robson Tomoki, Vinicius de Jesus
 ---
 
 Pé de Meia is a finance manager for android mobiles, developed for young brazilians with bad financial habits, but with the wish to change them. The user can define objectives and wishes as milestones, and the app track their progress showing how much money they already saved/still need to accomplish these objectives.

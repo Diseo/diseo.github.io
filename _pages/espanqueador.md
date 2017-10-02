@@ -1,7 +1,8 @@
 ---
 layout: page
 title:  "espanque a dor"
-categories: Ilustração
+categories:
+  - item: ilustração
 permalink: espanqueador
 
 weight: 1

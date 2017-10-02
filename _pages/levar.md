@@ -1,7 +1,9 @@
 ---
 layout: page
 title:  "levar"
-categories: produto
+categories:
+  - item: produto
+  - item: ergonomia
 permalink: levar
 
 weight: 4
