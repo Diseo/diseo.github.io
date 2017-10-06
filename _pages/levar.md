@@ -9,6 +9,47 @@ permalink: levar
 weight: 4
 priority: 10
 color: '#0099b5'
+
+logo: 'levar.png'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet ex orci, id tempus orci euismod eget. Integer vehicula ex velit, sit amet elementum est convallis ac. In sed bibendum ante. Aliquam quis lectus urna. Nullam pulvinar enim in dui tempus porta. Nunc enim tortor, condimentum eget ex quis, posuere sollicitudin lacus. Donec quis est eget turpis feugiat rhoncus. Curabitur id euismod lorem.
+Levar é um sistema de carregamento e descarregamento de bagagens para aeronaves comerciais, instalado no compartimento de carga. Funciona à base de ar para movimentar as bagagens, através de estruturas infláveis e de uma superfície de atrito reduzido por ar comprimido.
+
+<figure><img src="{{ site.baseurl }}/assets/levar/levar_model.jpg"/></figure>
+
+### problematização
+
+<figure><img src="{{ site.baseurl }}/assets/levar/problem.jpg"/></figure>
+
+A sustentabilidade compreende, além da questão ambiental, condições sociais que respeitam o ser humano. Atualmente, as atividades que ocorrem nos porões das aeronaves comerciais são neglicenciadas.
+
+<figure><img class="left-align" src="{{ site.baseurl }}/assets/levar/airplane_esquematic.jpg"/></figure>
+
+### geração de partidos
+<figure><img src="{{ site.baseurl }}/assets/levar/desenhos.jpg"/></figure>
+
+### uso do ar
+* placas micro perfuradas expelem ar comprimido diminuindo o atrito com as bagagens
+* 5 bolsas de ar determinam a configuração para movimentar as bagagens.
+
+<figure><img src="{{ site.baseurl }}/assets/levar/uso_ar.jpg"/></figure>
+
+### descarregamento
+As malas deslizam no descarregamento por conta do baixo atrito. Primeiro deve se descarregar a parte da frente devido ao volume de bagagens.
+
+<figure><img src="{{ site.baseurl }}/assets/levar/descarregamento.jpg"/></figure>
+
+### controle seletor
+A seleção da posição é realizada através de um controle seletor rotativo, provido de um botão no centro
+
+<figure><img src="{{ site.baseurl }}/assets/levar/controle.jpg"/></figure>
+<figure><img src="{{ site.baseurl }}/assets/levar/controle2.jpg"/></figure>
+
+### carregamento
+o operador de bagagens empilha as malas em fileiras, em seguida, empurra uniformemente com a ajuda de uma pá; repetindo o processo algumas vezes, todas as malas são organizadas e o compartimento é preenchido.
+
+<figure><img src="{{ site.baseurl }}/assets/levar/carregamento.jpg"/></figure>
+
+### benefícios
+
+<figure><img src="{{ site.baseurl }}/assets/levar/beneficios.jpg"/></figure>

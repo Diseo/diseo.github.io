@@ -16,4 +16,9 @@ details:
   - item:
       key: equipe
       value: Denise Ikuno
+
+logo: 'lupah_logo.png'
+
 ---
+
+ansieboiuqw
