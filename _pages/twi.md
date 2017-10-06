@@ -7,7 +7,7 @@ categories:
 permalink: twi
 
 weight: 1
-color: '#997fb7'
+color: '#b6dce7'
 
 details:
   - item:
@@ -16,6 +16,8 @@ details:
   - item:
       key: equipe
       value: Gabrielle Ery Higa
+
+logo: 'twi_anim.gif'
 
 ---
 

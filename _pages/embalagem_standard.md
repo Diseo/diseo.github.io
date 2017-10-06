@@ -5,7 +5,7 @@ categories:
   - item: produto
 permalink: embalagem_standard
 
-weight: 1
+weight: 2
 color: '#e9a17c'
 
 details:
@@ -17,49 +17,26 @@ details:
       value: Caio Reis, Lucas Neumann, Tadeu Omae
 
 ---
-<head>
-	<meta charset="UTF-8">
-	<title>Embalagem de vidro standard</title>
-	<link type="text/css" rel="stylesheet" href="/css/stylesheet.css"/>
-</head>
-
-<body>
+<link type="text/css" rel="stylesheet" href="/css/stylesheet.css"/>
 
 <div id="container">
 
-<!-- <figure id="fig" class="trs">
-	<div class="control"><div>
-    <span class="trs2 next"></span>
-   	<span class="trs2 prev"></span>
-   	</div></div>
-    <div id="slider">
-     	<a class="trs"><img src="/assets/imagem1.jpg" alt="Legenda da imagem 1" /></a>
-     	<a class="trs"><img src="/assets/imagem2.jpg" alt="Legenda da imagem 2" /></a>
-     	<a class="trs"><img src="/assets/imagem3.jpg" alt="Legenda da imagem 3" /></a>
-     	<a class="trs"><img src="/assets/imagem4.jpg" alt="Legenda da imagem 4" /></a>
-   </div>
-</figure> -->
-
 <div class="content">
-	<a class="trs"><img src="/assets/imagem4.jpg" alt="Legenda da imagem 4" /></a>
+  <figure><img src="{{ site.baseurl }}/assets/emb/imagem4.jpg"/></figure>
 	<div class="descricao">
-		<p>
-Projeto de embalagem de vidro standard, pensado para pequenas quantidades de produto. O formato interno permite um bom manuseio do produto contido e se torna um diferencial estético. Partindo do mesmo recipiente, mas acrescentando diferentes acabamentos e utilizando uma tampa não convencional, pode-se obter o destaque desejável. Para exemplificar a abrangência de utilização, três produtos de mercados e caraterísticas bem diferentes foram desenvolvidos:
-		</p>
+    <p>Projeto de embalagem de vidro standard, pensado para pequenas quantidades de produto. O formato interno permite um bom manuseio do produto contido e se torna um diferencial estético. Partindo do mesmo recipiente, mas acrescentando diferentes acabamentos e utilizando uma tampa não convencional, pode-se obter o destaque desejável. Para exemplificar a abrangência de utilização, três produtos de mercados e caraterísticas bem diferentes foram desenvolvidos:</p>
 	</div>
 
-	<div class="side-descricao">
-		<img src="/assets/esquemat.png"/>
-	</div>
+  <figure><img src="{{ site.baseurl }}/assets/emb/esquemat.png"/></figure>
+  <figure><img src="{{ site.baseurl }}/assets/emb/imagem1.jpg"/></figure>
+  <figure><img src="{{ site.baseurl }}/assets/emb/imagem2.jpg"/></figure>
+  <figure><img src="{{ site.baseurl }}/assets/emb/imagem3.jpg"/></figure>
 
-	<a class="trs"><img src="/assets/imagem1.jpg" alt="Legenda da imagem 1" /></a>
- 	<a class="trs"><img src="/assets/imagem2.jpg" alt="Legenda da imagem 2" /></a>
- 	<a class="trs"><img src="/assets/imagem3.jpg" alt="Legenda da imagem 3" /></a>
 </div>
 
 	<div class="itens">
 		<div class="item">
-			<img class="trs-bounce" src="/assets/emb_geleia_thumb.png"/>
+      <figure><img src="{{ site.baseurl }}/assets/emb/emb_geleia_thumb.png" class="trs-bounce"/></figure>
 			<ul>
 				<li style="color:#ffc00f">GELÉIA REAL</li>
 				<li>alimentício</li>
@@ -69,7 +46,8 @@ Projeto de embalagem de vidro standard, pensado para pequenas quantidades de pro
 			</ul>
 			</div>
 		<div class="item">
-			<img class="trs-bounce" src="/assets/emb_tinta_thumb.png"/>
+      <figure><img src="{{ site.baseurl }}/assets/emb/emb_tinta_thumb.png" class="trs-bounce"/></figure>
+
 			<ul>
 				<li style="color:#656cb5">TINTA NANQUIM</li>
 				<li>artístico</li>
@@ -79,7 +57,7 @@ Projeto de embalagem de vidro standard, pensado para pequenas quantidades de pro
 			</ul>
 		</div>
 		<div class="item">
-			<img class="trs-bounce" src="/assets/emb_creme_thumb.png"/>
+      <figure><img src="{{ site.baseurl }}/assets/emb/emb_creme_thumb.png" class="trs-bounce"/></figure>
 			<ul>
 				<li style="color:#84c086">CREME</li>
 				<li>cosmético</li>
@@ -91,16 +69,24 @@ Projeto de embalagem de vidro standard, pensado para pequenas quantidades de pro
 	</div>
 </div>
 
-<div style="display: block;">
-	<img class="full-img" src="/assets/emb_paral_fundo.jpg"/>
-	<img/>
-	<img id="tinta-preta" class="mt" src="/assets/emb_paral_preto.png" data-speed="-3"/>
-	<img id="tinta-azul" class="mt" src="/assets/emb_paral_azul.png" data-speed="4"/>
-	<img id="tinta-verm" class="mt" src="/assets/emb_paral_verm.png" data-speed="1.5"/>
+<div class="left-align" style="display: block;">
+	<img class="full-img" src="{{ site.baseurl }}/assets/emb/emb_paral_fundo.jpg"/>
+	<img id="tinta-preta" class="mt" src="{{ site.baseurl }}/assets/emb/emb_paral_preto.png" data-speed="-3"/>
+	<img id="tinta-azul" class="mt" src="{{ site.baseurl }}/assets/emb/emb_paral_azul.png" data-speed="4"/>
+	<img id="tinta-verm" class="mt" src="{{ site.baseurl }}/assets/emb/emb_paral_verm.png" data-speed="1"/>
 </div>
 
-<script type="text/javascript" src="/js/slide.diso.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script type="text/javascript" src="/js/jquery.paral.js"></script>
-
-</body>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('img.mt').each(function(){
+      var $obj = $(this);
+      var mtin = parseInt($obj.css("margin-top"));
+      $(window).scroll(function() {
+        var yPos = mtin -((  (($(window).scrollTop()+$(window).height())/$(document).height()) * $obj.parent().height()) / $obj.data('speed'));
+        var mtpos = yPos + 'px';
+        $obj.css('margin-top', mtpos);
+      });
+    });
+  });
+</script>
