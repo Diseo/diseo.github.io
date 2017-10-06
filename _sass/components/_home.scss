@@ -1,7 +1,7 @@
 .projects_container {
   margin-left: -$c_card_margin;
   margin-right: -$c_card_margin;
-margin-top: -14rem;
+  margin-top: -7rem;
 
   &:first-child {
     // margin-top: 40rem;
@@ -87,6 +87,15 @@ margin-top: -14rem;
 .project_card_4x {
   width: 2 * $c_card + 2*$c_card_margin;
   height: 2 * $c_card + 2*$c_card_margin;
+}
+
+$about_top_trans: -7.8rem;
+.project_card_about {
+  -webkit-transform: translate(0, $about_top_trans);
+	-moz-transform: translate(0, $about_top_trans);
+	-ms-transform: translate(0, $about_top_trans);
+	-o-transform: translate(0, $about_top_trans);
+	transform: translate(0, $about_top_trans);
 }
 
 .img_cover {

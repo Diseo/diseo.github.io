@@ -33,36 +33,24 @@
   z-index: -1;
 }
 
-.photo {
-  // display: none;
-  width: 4.8rem;
-  height: 4.8rem;
-  float: left;
-  margin-top: 2.5rem;
-  margin-left: -2.4rem;
-  background: #fff;
-  border-radius: 50%;
-  @include trans200;
-}
-
 .back {
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 6rem;
-  height: 6rem;
+  width: 4.8rem;
+  height: 4.8rem;
   top: 2.5rem;
-  margin-left: -3rem;
+  margin-left: -2.4rem;
   background: #fff;
   border-radius: 50%;
   @include flat-shadow-animate;
   @include trans200;
 
   svg {
-    width: 3.6rem;
-    height: 3.6rem;
-    opacity: 0.5;
+    width: 2.8rem;
+    height: 2.8rem;
+    opacity: 0.7;
   }
 
   &:hover svg {

@@ -5,7 +5,7 @@ title: Leonardo Akamatsu
 <article class="c-article">
   <header class="c-header c-article__header">
     <div class="u-container">
-      <img id="foto" class="photo" src="/assets/minha_foto.jpg"/>
+      <img class="photo" src="/assets/minha_foto.jpg"/>
     </div>
   </header>
 
@@ -13,7 +13,7 @@ title: Leonardo Akamatsu
 
     <div class="projects_container">
       {% for project in site.pages %}{% if project.sobre %}
-        <a class="project_card project_card_4x">
+        <a class="project_card project_card_2x project_card_about">
           {% include about_card.html %}
         </a>
       {% endif %}{% endfor %}

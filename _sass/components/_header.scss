@@ -19,6 +19,18 @@
   display: inline-block;
 }
 
+.photo {
+  // display: none;
+  width: 4.8rem;
+  height: 4.8rem;
+  float: left;
+  margin-top: 2.5rem;
+  margin-left: -2.4rem;
+  background: #fff;
+  border-radius: 50%;
+  @include trans200;
+}
+
 .c-header__title {
   // width: 120rem;
   // margin: 2rem 0 0 -2rem;

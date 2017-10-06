@@ -61,18 +61,18 @@
 
 @mixin flat-shadow-animate {
   $flat_shadow: 0.1;
-  -webkit-box-shadow: 0 4px 0 rgba(0,0,0,$flat_shadow);
-  -moz-box-shadow: 0 4px 0 rgba(0,0,0,$flat_shadow);
-  box-shadow: 0 4px 0 rgba(0,0,0,$flat_shadow);
+  -webkit-box-shadow: 0 2px 0px rgba(0,0,0,$flat_shadow);
+  -moz-box-shadow: 0 2px 0px rgba(0,0,0,$flat_shadow);
+  box-shadow: 0 2px 0px rgba(0,0,0,$flat_shadow);
     &:hover {
-      -webkit-box-shadow: 0 6px 0 rgba(0,0,0,$flat_shadow);
-      -moz-box-shadow: 0 6px 0 rgba(0,0,0,$flat_shadow);
-      box-shadow: 0 6px 0 rgba(0,0,0,$flat_shadow);
+      -webkit-box-shadow: 0 4px 1px rgba(0,0,0,$flat_shadow);
+      -moz-box-shadow: 0 4px 1px rgba(0,0,0,$flat_shadow);
+      box-shadow: 0 4px 1px rgba(0,0,0,$flat_shadow);
     }
     &:active {
-      -webkit-box-shadow: 0 2px 0 rgba(0,0,0,$flat_shadow);
-      -moz-box-shadow: 0 2px 0 rgba(0,0,0,$flat_shadow);
-      box-shadow: 0 2px 0 rgba(0,0,0,$flat_shadow);
+      -webkit-box-shadow: 0 1px 0px rgba(0,0,0,$flat_shadow);
+      -moz-box-shadow: 0 1px 0px rgba(0,0,0,$flat_shadow);
+      box-shadow: 0 1px 0px rgba(0,0,0,$flat_shadow);
     }
 }
 
