@@ -29,14 +29,14 @@ layout: default
           {% else %}
             categorias
           {% endif %}
-        </span>
+        </span><br>
           {% for category in page.categories %} {% if forloop.last == false %}
               {{ category.item }},
             {% else %}
               {{ category.item }}
           {% endif %} {% endfor %}</li>
         {% for detail in page.details %}
-        <li><span>{{ detail.item.key }}</span>  {{ detail.item.value }}</li>
+        <li><span>{{ detail.item.key }}</span><br>  {{ detail.item.value }}</li>
         {% endfor %}
       </ul>
     </div>

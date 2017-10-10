@@ -8,5 +8,5 @@ permalink: expografia_medo
 
 weight: 1
 priority: 1
-color: '#2dccad'
+color: '#000000'
 ---

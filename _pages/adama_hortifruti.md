@@ -1,10 +1,10 @@
 ---
 layout: page
-title:  "app adama hortifruti"
+title:  "adama hortifruti"
 categories:
   - item: interface
   - item: ux
-permalink: hortifruti
+permalink: adama_hortifruti
 
 weight: 4
 priority: 10

@@ -7,8 +7,16 @@ categories:
 permalink: minhocao
 
 weight: 1
-priority: 1
+priority: 5
 color: '#2dccad'
+
+details:
+  - item:
+      key: ano
+      value: 2013
+  - item:
+      key: equipe
+      value: Caio Reis, Adriano Furtado
 ---
 
 Minhocão é uma via elevada de 4 quilomêtros de extensão que conecta a zona oeste com o centro de São Paulo. Foi criado nos anos 70 com um impacto negativo enorme em uma das mais atraentes área da cidade até então.

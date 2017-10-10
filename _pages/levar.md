@@ -6,7 +6,7 @@ categories:
   - item: ergonomia
 permalink: levar
 
-weight: 4
+weight: 2
 priority: 10
 color: '#0099b5'
 

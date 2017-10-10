@@ -6,7 +6,7 @@ categories:
 permalink: espanqueador
 
 weight: 1
-priority:
+priority: 3
 color: '#e46868'
 ---
 
