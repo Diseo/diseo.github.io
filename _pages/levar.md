@@ -10,6 +10,14 @@ weight: 2
 priority: 10
 color: '#0099b5'
 
+details:
+  - item:
+      key: ano
+      value: 2012
+  - item:
+      key: equipe
+      value: Adriano Furtado, Caio Reis, Henrique Corazza e Marcos Philipson
+
 logo: 'levar.png'
 ---
 
