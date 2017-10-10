@@ -8,7 +8,7 @@ permalink: minhocao
 
 weight: 1
 priority: 5
-color: '#2dccad'
+color: 'linear-gradient(to right, rgba(239,238,155,1), rgba(239,209,147,1))'
 
 details:
   - item:

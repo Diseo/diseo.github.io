@@ -21,4 +21,13 @@ logo: 'lupah_logo.png'
 
 ---
 
-ansieboiuqw
+<figure><img src="{{ site.baseurl }}/assets/lupah/animate1.jpg"/></figure>
+
+<figure><img src="{{ site.baseurl }}/assets/lupah/animate2.jpg"/></figure>
+
+<figure><img src="{{ site.baseurl }}/assets/lupah/text1.jpg"/></figure>
+
+<figure><img src="{{ site.baseurl }}/assets/lupah/text2.jpg"/></figure>
+
+<figure><img src="{{ site.baseurl }}/assets/lupah/text3.jpg"/></figure>
+
