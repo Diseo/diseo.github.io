@@ -7,7 +7,7 @@ categories:
 permalink: minhocao
 
 weight: 1
-priority: 5
+priority: 40
 color: 'linear-gradient(to right, rgba(239,238,155,1), rgba(239,209,147,1))'
 
 details:

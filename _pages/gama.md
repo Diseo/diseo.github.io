@@ -7,7 +7,7 @@ categories:
 permalink: gama
 
 weight: 3
-priority: 10
+priority: 60
 color: '#7F78AB'
 ---
 

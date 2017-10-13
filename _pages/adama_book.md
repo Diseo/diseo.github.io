@@ -7,7 +7,7 @@ categories:
 permalink: adama_book
 
 weight: 2
-priority: 10
+priority: 55
 color: '#422554'
 ---
 

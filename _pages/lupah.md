@@ -6,7 +6,7 @@ categories:
 permalink: lupah
 
 weight: 1
-priority: 11
+priority: 100
 color: '#2dccad'
 
 details:
@@ -26,13 +26,13 @@ logo: 'lupah_logo.png'
 
 Lupah é um projeto para dar suporte à população sobre o melhor direcionamento a prontos socorros e hospitais, além de possuir uma aplicação com localizador de unidades de saúde.
 
-<figure><img class="img_small" src="{{ site.baseurl }}/assets/lupah/lupah_mock2.png"/></figure>
+<figure><img class="img_small" src="{{ site.baseurl }}/assets/lupah/lupah_mockup.jpg"/></figure>
 
 A grande vantagem do projeto foi entender que a população não tem conhecimento da estrutura do sistema de atendimento de saúde, causando filas e prejudicando no andamento tanto dos processos mais graves quanto dos mais leves.
 
 <figure><img class="img_small" src="{{ site.baseurl }}/assets/lupah/lupah_febre.jpg"/></figure>
 
-O sistema de saúde está separado em 3 níveis de atendimento, e  nos casos de menor urgência, como dor de cabeça, tosse e febre, deve-se encaminhar ao atendimento primário, que são as AMAs e UBSs e não aos prontos-socorros e hospitais.
+O sistema de saúde está separado em 3 níveis de atendimento, e  nos casos de menor urgência - como dor de cabeça, tosse e febre - deve-se encaminhar ao atendimento primário, que são as AMAs e UBSs e não aos prontos-socorros e hospitais.
 
 <figure><img class="img_small" src="{{ site.baseurl }}/assets/lupah/desenho_primario.jpg"/></figure>
 

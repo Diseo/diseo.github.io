@@ -7,7 +7,7 @@ categories:
 permalink: levar
 
 weight: 3
-priority: 10
+priority: 80
 color: '#0099b5'
 
 details:

@@ -7,7 +7,7 @@ categories:
 permalink: adama_hortifruti
 
 weight: 4
-priority: 10
+priority: 65
 color: '#00a351'
 ---
 

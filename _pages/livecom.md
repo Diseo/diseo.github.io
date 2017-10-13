@@ -7,7 +7,7 @@ categories:
 permalink: livecom
 
 weight: 4
-priority: 10
+priority: 70
 color: '#0096D0'
 
 logo: 'livecom_logo.png'
