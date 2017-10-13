@@ -81,6 +81,10 @@
 }
 
 .project_card_2x {
+  height: 2 * $c_card + 2*$c_card_margin;
+}
+
+.project_card_2x1 {
   width: 2 * $c_card + 2*$c_card_margin;
 }
 

@@ -6,7 +6,7 @@ categories:
  - item: ergonomia
 permalink: labor
 
-weight: 2
+weight: 4
 priority: 1
 color: '#2dccad'
 ---

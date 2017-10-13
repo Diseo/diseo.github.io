@@ -6,7 +6,7 @@ categories:
   - item: ergonomia
 permalink: levar
 
-weight: 2
+weight: 3
 priority: 10
 color: '#0099b5'
 
@@ -31,7 +31,7 @@ Levar é um sistema de carregamento e descarregamento de bagagens para aeronaves
 
 A sustentabilidade compreende, além da questão ambiental, condições sociais que respeitam o ser humano. Atualmente, as atividades que ocorrem nos porões das aeronaves comerciais são neglicenciadas.
 
-<figure><img class="left-align" src="{{ site.baseurl }}/assets/levar/airplane_esquematic.jpg"/></figure>
+<figure><img src="{{ site.baseurl }}/assets/levar/airplane_esquematic.jpg"/></figure>
 
 ### geração de partidos
 <figure><img src="{{ site.baseurl }}/assets/levar/desenhos.jpg"/></figure>

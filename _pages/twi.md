@@ -6,7 +6,7 @@ categories:
   - item: gráfico
 permalink: twi
 
-priority: 5
+priority: 6
 weight: 1
 color: '#b6dce7'
 

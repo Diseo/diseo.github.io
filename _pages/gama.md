@@ -6,7 +6,7 @@ categories:
   - item: ux
 permalink: gama
 
-weight: 2
+weight: 3
 priority: 10
 color: '#7F78AB'
 ---

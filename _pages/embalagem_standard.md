@@ -5,7 +5,7 @@ categories:
   - item: produto
 permalink: embalagem_standard
 
-weight: 2
+weight: 3
 color: '#e9a17c'
 
 details:
