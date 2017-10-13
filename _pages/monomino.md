@@ -19,15 +19,28 @@ details:
       key: equipe
       value: Caio Reis, Gabrielle Ery Higa, Henrique Corazza e Vinicius Hernandez
 
-logo: 'logo_monomino.jpg'
 ---
 
-Monominó é uma marca fictícia de móveis modulares criada para o projeto integrado  das disciplinas Projeto Visual 2: Identidade e Tipografia, do curso de Design da FAUUSP.
+Monominó é uma marca fictícia de móveis modulares criada para o projeto integrado  das disciplinas Projeto Visual 2 , Projeto de Produto 2 e Tipografia, do curso de Design da FAUUSP.
+
+### tipografia
 
 A fonte Poliminó Sans foi inteiramente desenvolvida para a marca, com as versões alongada e compacta.
 
-<figure><img src="{{ site.baseurl }}/assets/monomino/tipo_polimino.jpg"/></figure>
+<figure><img class="img_small" src="{{ site.baseurl }}/assets/monomino/tipo_polimino.png"/></figure>
 
 A fonte VAG6 Roman Lt é uma adaptação da fonte existente VAG Rounded. Algumas letras minúsculas como "a", "j" e "t" foram redesenhadas a fim de proporcionar uma personalidade mais marcante para a fonte.
 
-<figure><img src="{{ site.baseurl }}/assets/monomino/tipo_vag6.jpg"/></figure>
+<figure><img class="img_small" src="{{ site.baseurl }}/assets/monomino/tipo_vag6.png"/></figure>
+
+### identidade
+
+<figure><img class="img_small" src="{{ site.baseurl }}/assets/monomino/logo_monomino.jpg"/></figure>
+
+### mobiliário
+
+Um dos requisitos do projeto era a multifuncional, a partir da geração de partidos conceituais, foi escolhido fazer uma mesa de escritório e um aparador. É possível esconder e proteger os objetos utilizados para trabalhar, como computador, anotações e canetas, simplesmente fechando a tampa. O móvel também é modular, podendo ser composto por um ou dois módulos de largura.
+
+<figure><img class="img_small" src="{{ site.baseurl }}/assets/monomino/mesa_estudos.jpg"/></figure>
+
+<figure><img class="img_small" src="{{ site.baseurl }}/assets/monomino/mesa_expandida.png"/></figure>

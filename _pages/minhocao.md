@@ -25,7 +25,7 @@ Minhocão é uma via elevada de 4 quilomêtros de extensão que conecta a zona o
 
 Este projeto representa a intenção dos idealizadores em ver um novo futuro para esse machucado na cidade de São Paulo, transformando o Minhocão em um parque elevado.
 
-<figure><img class="img_original-size" src="{{ site.baseurl }}/assets/minhocao/minho_old_ph.jpg"/></figure>
+<figure><img class="img_original" src="{{ site.baseurl }}/assets/minhocao/minho_old_ph.jpg"/></figure>
 
 A foto acima de Cristiano Mascaro, 1983, representa o paradigma da luz e da sombra provocada pela construção nos seus arredores. Este paradigma inspirou a marca gráfica criada pelo formato da luz.
 
