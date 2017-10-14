@@ -17,12 +17,14 @@
       var windowScroll = 1 - $(window).scrollTop()/100;
   			$('.project_title_group').css('opacity', windowScroll);
   			$('.photo').css('opacity', windowScroll);
-  			$('.c-project__cover').css('opacity', windowScroll + 0.2);
+  			$('.c-project__cover').css('opacity', windowScroll + 0.1);
+  			$('.c-project__cover').css('height', windowScroll*8 + 10 + 'rem');
   		}
       else {
         $('.project_title_group').css('opacity', '0');
         $('.photo').css('opacity', '0');
         $('.c-project__cover').css('opacity', '0.1');
+        $('.c-project__cover').css('height', '10rem');
       }
     });
   </script>
