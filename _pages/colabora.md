@@ -6,7 +6,7 @@ categories:
 permalink: colabora
 
 weight: 1
-priority: 9
+priority: 50
 color: '#CE8190'
 ---
 

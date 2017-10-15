@@ -7,7 +7,7 @@ categories:
 permalink: pe_de_meia
 
 weight: 4
-priority: 11
+priority: 90
 color: '#52BA9A'
 
 details:
@@ -21,7 +21,7 @@ details:
 logo: 'pedemeia_logo.png'
 ---
 
-<figure><img src="{{ site.baseurl }}/assets/pe_de_meia/proj_pe_de_meia_verde.png"/></figure>
+<figure><img src="{{ site.baseurl }}/assets/pe_de_meia/proj_pe_de_meia_verde.jpg"/></figure>
 
 Pé de meia é um aplicativo que ajuda a melhorar a saúde financeira de uma forma mais lúdica. Desenvolvido para jovens brasileiros com maus hábitos financeiros mas que desejam mudar essa rotina e não sabem como.
 

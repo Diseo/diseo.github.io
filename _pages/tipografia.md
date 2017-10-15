@@ -6,7 +6,7 @@ categories:
 permalink: tipografia
 
 weight: 1
-priority: 5
+priority: 35
 color: '#b6a1ed'
 ---
 

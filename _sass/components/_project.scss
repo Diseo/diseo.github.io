@@ -107,6 +107,15 @@
   }
 
   .left-align { margin-left: -30rem }
+
+  a {
+    font-weight: 600;
+
+    &:hover {
+      text-decoration: underline;
+      opacity: 0.8;
+    }
+  }
 }
 
 @media all and (max-width: 800px){
