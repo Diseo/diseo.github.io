@@ -17,8 +17,6 @@ O aplicativo Adama HF permite que os agricultores registrem todas as operações
 
 <figure><img class="img_small" src="{{ site.baseurl }}/assets/adama_hf/func.png"/></figure>
 
-<figure><img class="img_small" src="{{ site.baseurl }}/assets/adama_hf/proj_hortifruti.png"/></figure>
-
 ### principais recursos
 
 - Registro de operações feitas nas culturas de hortifruti
@@ -33,6 +31,9 @@ O aplicativo Adama HF permite que os agricultores registrem todas as operações
 
 - Indicação do produto adequado para cada espécie
 
-<br>
+<figure><img class="img_small" src="{{ site.baseurl }}/assets/adama_hf/proj_hortifruti.png"/></figure>
+
+<figure><img class="img_small" src="{{ site.baseurl }}/assets/adama_book/culturas.png"/></figure>
+##### ícones desenvolvidos para os aplicativos Adama Hortifruti e Adama Book
 
 Apps na [Google Play](https://play.google.com/store/apps/details?id=br.com.livetouch.adamahortifruti) e na [App Store](https://itunes.apple.com/br/app/adama-hf/id1171143876?mt=8)

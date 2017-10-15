@@ -45,11 +45,7 @@ O processo de desenvolvimento foi feito através de pesquisa do comportamento fi
 
 Por fim, uma geração de opções gráficas foi realizada e através de refinamentos guiados pela experiência que o usuário teria fosse possível chegar em um resultado final bem intuitivo. A idéia era manter uma linguagem lúdica e bem amigável.
 
-<figure><img class="img_small img_original" src="{{ site.baseurl }}/assets/pe_de_meia/pedemeia_tela(3).jpg"/><img class="img_small img_original" src="{{ site.baseurl }}/assets/pe_de_meia/pedemeia_tela(4).jpg"/></figure>
-
-<figure><img class="img_small img_original" src="{{ site.baseurl }}/assets/pe_de_meia/pedemeia_tela(7).jpg"/><img class="img_small img_original" src="{{ site.baseurl }}/assets/pe_de_meia/pedemeia_tela(2).jpg"/></figure>
-
-<figure><img class="img_small img_original" src="{{ site.baseurl }}/assets/pe_de_meia/pedemeia_tela(5).jpg"/><img class="img_small img_original" src="{{ site.baseurl }}/assets/pe_de_meia/pedemeia_tela(6).jpg"/></figure>
+<figure><img class="img_small img_original" src="{{ site.baseurl }}/assets/pe_de_meia/telas.jpg"/></figure>
 
 <iframe src="https://player.vimeo.com/video/62218485?byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 ##### Vídeo desenvolvido para entrega final da disciplina

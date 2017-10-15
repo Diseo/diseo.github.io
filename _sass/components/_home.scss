@@ -37,7 +37,7 @@
     .card_labels {
       position: absolute;
       bottom: 2rem;
-      left: 0rem;
+      margin-left: 0rem;
       opacity: 0;
       @include trans500;
     }
@@ -46,7 +46,7 @@
       @include fs--title;
       font-weight: 600;
       // text-shadow: 0 0.2rem 0 rgba(255,249,237,0.4);
-      width: 70%;
+      width: 72%;
       position: relative;
       font-size: 3rem;
       color: black;
@@ -116,7 +116,11 @@ $about_top_trans: -7.8rem;
     }
 
     &:hover .card_inner .card_labels {
-      left: -1rem;
+      -webkit-transform: translate(-1rem, 0);
+    	-moz-transform: translate(-1rem, 0);
+    	-ms-transform: translate(-1rem, 0);
+    	-o-transform: translate(-1rem, 0);
+    	transform: translate(-1rem, 0);
       opacity: 1;
     }
   }
