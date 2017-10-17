@@ -1,10 +1,10 @@
 ---
 layout: page
-title:  "app image recognition"
+title:  "viva pontofrio"
 categories:
   - item: interface
   - item: ux
-permalink: app_image
+permalink: viva_pontofrio
 
 weight: 2
 priority: 75
@@ -19,7 +19,9 @@ details:
       value: Tuanny Harumi, Mikail Freitas
 ---
 
-Esse aplicativo tinha como objetivo incentivar as compras nas lojas físicas através do recebimento de cupons de desconto através do uso da câmera interna a aplicação. Também foi explorado o uso de geolocalização para apresentar as lojas com produtos em estoque e beacons presentes nas lojas para captar os clientes. O uso de in-app push e direcionamento de push por segmentação acrescentavam valor às campanhas de marketing.
+O Viva Pontofrio tinha como objetivo incentivar as compras nas lojas físicas através do recebimento de cupons de desconto através do uso da câmera interna à aplicação. Também foi explorado o uso de geolocalização para apresentar as lojas com produtos em estoque e beacons presentes nas lojas para captar os clientes. O uso de in-app push e direcionamento de push por segmentação acrescentavam valor às campanhas de marketing.
+
+Essa versão do aplicativo ainda estava em prova de conceito e não foi lançado.
 
 Para descobrir os cupons bastava apontar a câmera do aplicativo para os alvos presentes em cadernos de vendas e em _wobblers_, peças gráficas localizadas em pontos de venda.
 
