@@ -33,7 +33,9 @@
   blockquote {
     margin-left: -2.5rem;
     width: calc(100% + 5rem);
-    padding: 2.5rem;
+    padding: 0 1rem;
     background: $c__light-grey;
+    color: #ff0000;
+    border-left: 0.25em solid #ff0000;
   }
 }

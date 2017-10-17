@@ -39,8 +39,10 @@ A fonte VAG6 Roman Lt é uma adaptação da fonte existente VAG Rounded. Algumas
 
 ### mobiliário
 
-Um dos requisitos do projeto era a multifuncional, a partir da geração de partidos conceituais, foi escolhido fazer uma mesa de escritório e um aparador. É possível esconder e proteger os objetos utilizados para trabalhar, como computador, anotações e canetas, simplesmente fechando a tampa. O móvel também é modular, podendo ser composto por um ou dois módulos de largura.
+Um dos requisitos do projeto era a multifuncionalidade. A partir da geração de partidos conceituais, foi escolhido ser desenvolvido um móvel que serviria tanto como mesa de escritório quanto de um aparador.
 
 <figure><img class="img_small" src="{{ site.baseurl }}/assets/monomino/mesa_estudos.jpg"/></figure>
+
+Com um mecanismo simples é possível esconder e proteger os objetos utilizados para trabalhar - como computador, anotações e canetas - simplesmente fechando a tampa. O móvel possui uma modularidade que permite compor uma mesa extendendo a largura.
 
 <figure><img class="img_small" src="{{ site.baseurl }}/assets/monomino/mesa_expandida.png"/></figure>
