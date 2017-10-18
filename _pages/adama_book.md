@@ -7,7 +7,7 @@ categories:
 permalink: adama_book
 
 weight: 2
-priority: 55
+priority: 44
 color: '#422554'
 
 logo: 'book_logo.png'
@@ -23,7 +23,7 @@ O sistema possui uma interface de administração onde é possível adicionar ar
 
 <figure><img src="{{ site.baseurl }}/assets/adama_book/fluxo.png"/></figure>
 
-Para visualizar as informações dos produtos existem três caminhos, é possível filtrar por produto, por segmento de produto ou por cultura. Outra possibiidade para encontrar o desejado é buscar por palavra-chave.
+Para visualizar as informações dos produtos existem três caminhos, é possível filtrar por produto, por segmento de produto ou por cultura. Outra possibilidade para encontrar o desejado é buscar por palavra-chave.
 
 <figure><img class="img_small" src="{{ site.baseurl }}/assets/adama_book/adamabook.png"/></figure>
 

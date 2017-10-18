@@ -7,7 +7,7 @@ categories:
 permalink: gama
 
 weight: 3
-priority: 60
+priority: 41
 color: '#7F78AB'
 
 logo: 'gama_logo.png'
