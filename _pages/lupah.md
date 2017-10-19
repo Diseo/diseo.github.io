@@ -46,7 +46,7 @@ O resultado final do fluxo possuia apenas uma tela com mapa e suporte a filtros.
 
 <figure><img class="img_small" src="{{ site.baseurl }}/assets/lupah/telas.jpg"/></figure>
 
-### produção de vídeo
+### produção do vídeo
 
 O processo de criação do vídeo foi iniciado pelo desenvolvimento do storyboard, que com esboços e instruções é determinado o enredo e direção de arte.
 

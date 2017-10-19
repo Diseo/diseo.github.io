@@ -21,9 +21,9 @@ details:
 
 O Viva Pontofrio tinha como objetivo incentivar as compras nas lojas físicas através do recebimento de cupons de desconto através do uso da câmera interna à aplicação. Também foi explorado o uso de geolocalização para apresentar as lojas com produtos em estoque e beacons presentes nas lojas para captar os clientes. O uso de in-app push e direcionamento de push por segmentação acrescentavam valor às campanhas de marketing.
 
-Essa versão do aplicativo ainda estava em prova de conceito e não foi lançado.
+Essa versão do aplicativo estava em prova de conceito e não foi lançada.
 
-Para descobrir os cupons bastava apontar a câmera do aplicativo para os alvos presentes em cadernos de vendas e em _wobblers_, peças gráficas localizadas em pontos de venda.
+Para descobrir os cupons bastava apontar a câmera do aplicativo para os alvos presentes em cadernos de vendas e em _wobblers_, peças gráficas localizadas nos pontos de venda.
 
 <figure><img style="position: absolute; z-index: -1; width: 90rem;" src="{{ site.baseurl }}/assets/app_image/mockup1.jpg"/></figure>
 <figure><img src="{{ site.baseurl }}/assets/app_image/mockup_camera__.gif"/></figure>
