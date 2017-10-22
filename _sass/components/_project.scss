@@ -155,15 +155,18 @@
   }
 
   .c-article__main {
-    padding-top: 20rem;
+    padding-top: 26rem;
   }
 
-  .project_content p {
-    margin: 0 1.5rem;
-  }
+  .project_content {
+    p, h3 {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
 
-  .left {
-    margin-left: 0rem;
-    margin-right: 0rem;
+    .left {
+      margin-left: 0rem;
+      margin-right: 0rem;
+    }
   }
 }

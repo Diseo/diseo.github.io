@@ -24,7 +24,7 @@ O Viva Pontofrio tinha como objetivo incentivar as compras nas lojas físicas at
 Essa versão do aplicativo estava em prova de conceito e não foi lançada.
 
 <div class="left" markdown="1">
-### camêra
+### câmera
 
 Para descobrir os cupons bastava apontar a câmera do aplicativo para os alvos presentes em cadernos de vendas e em _wobblers_, peças gráficas localizadas nos pontos de venda.
 

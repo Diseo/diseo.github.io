@@ -60,7 +60,7 @@
     p {
       color: black;
       font-size: 1.8rem;
-      width: 44rem;
+      // width: 44rem;
     }
 
     .marker {
@@ -132,13 +132,13 @@ $about_top_trans: -7.8rem;
     bottom: -4.5rem;
     opacity: 1;
 
-    h3 {
-      width: 100%;
-    }
+    h3 { width: 100%; }
   }
 
-  .card_labels_about {
+  .project_card .card_inner .card_labels_about {
     margin: 0 1.5rem;
+
+    h3 { width: 100%; }
   }
 
   .project_card_1x, .project_card_2x, .project_card_2x1, .project_card_4x {
