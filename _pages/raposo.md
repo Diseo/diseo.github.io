@@ -22,7 +22,7 @@ O projeto experimental Raposo teve como base a exploração do programa Cinema 4
 
 A iluminação foi bastante explorada, bem como o resultado de sombra. Outros aspectos investigados foram propriedades de câmera, como profundidade de campo, e partículas para simular efeito de fumaça.
 
-<div class="left-align" style="background-color:#111; display:flex; justify-content:center">
+<div class="left" style="background-color:#111; display:flex; justify-content:center">
 	<div class="sketchfab-embed-wrapper"><iframe width="360" height="640" src="https://sketchfab.com/models/2a698723863f4c58b858bb87ad5f4b1c/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
 
 		<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">

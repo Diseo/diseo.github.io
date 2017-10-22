@@ -18,6 +18,6 @@ O primeiro trabalho foi realizado através de uma composição de tipos móveis 
 
 Outro trabalho foi o desenvolvimento de um tipografia baseada em um grid pré-definido de 3x5. A partir de um caracter foi gerado o alfabeto e os numerais. Foi escolhido fazer uma variação de espessura conforme o sentido passava de horizontal para vertical, tendo o diagonal como um intermediário.
 
-<figure><img class="left-align" src="{{ site.baseurl }}/assets/tipografia/tipo_grid.jpg"/></figure>
+<figure><img class="left" src="{{ site.baseurl }}/assets/tipografia/tipo_grid.jpg"/></figure>
 
-<figure><img class="left-align" src="{{ site.baseurl }}/assets/tipografia/proj_tipografia.jpg"/></figure>
+<figure><img class="left" src="{{ site.baseurl }}/assets/tipografia/proj_tipografia.jpg"/></figure>

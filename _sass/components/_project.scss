@@ -75,7 +75,7 @@
 
 .project_content {
   float: left;
-  width: 75%;
+  width: 92rem;
 
   h3 {
     font-family: 'Rubik', 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
@@ -99,13 +99,16 @@
     margin-bottom: 2.4rem;
     overflow: visible;
 
-    & .left-align { margin-left: -30rem }
-
     img { width: 100%; }
+  }
 
-    .img_original { width: auto; }
+  .img_original { width: auto; }
 
-    .img_small { max-width: 64rem; }
+  .img_small { max-width: 64rem; }
+
+  .left {
+    margin-left: -28rem;
+    margin-right: 28rem;
   }
 
   ul { margin-bottom: 1.6rem; }
@@ -157,5 +160,10 @@
 
   .project_content p {
     margin: 0 1.5rem;
+  }
+
+  .left {
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
 }

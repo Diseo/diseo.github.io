@@ -69,7 +69,7 @@ details:
 	</div>
 </div>
 
-<div class="left-align" style="display: block;">
+<div class="left" style="display: block;">
 	<img class="full-img" src="{{ site.baseurl }}/assets/emb/emb_paral_fundo.jpg"/>
 	<img id="tinta-preta" class="mt" src="{{ site.baseurl }}/assets/emb/emb_paral_preto.png" data-speed="-3"/>
 	<img id="tinta-azul" class="mt" src="{{ site.baseurl }}/assets/emb/emb_paral_azul.png" data-speed="4"/>
