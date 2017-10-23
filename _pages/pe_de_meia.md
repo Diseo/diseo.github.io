@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "app pé de meia"
+title:  "pé de meia"
 categories:
   - item: interface
   - item: ux
