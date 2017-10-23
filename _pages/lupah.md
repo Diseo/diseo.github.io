@@ -29,6 +29,8 @@ Lupah é um projeto para dar suporte à população sobre o melhor direcionament
 {: .img_small}
 <figure><img src="{{ site.baseurl }}/assets/lupah/lupah_mockup.jpg"/></figure>
 
+### ideação
+
 A grande vantagem do projeto foi entender que a população não tem conhecimento da estrutura do sistema de atendimento de saúde, causando filas e prejudicando no andamento tanto dos processos mais graves quanto dos mais leves.
 
 {: .img_small}

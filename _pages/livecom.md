@@ -1,10 +1,13 @@
 ---
 layout: page
 title:  "plataforma livecom"
+categories:
+  - item: interface
+  - item: ux
 permalink: livecom
 
 weight: 4
-priority: 70
+priority: 80
 color: '#0096D0'
 
 logo: 'livecom_logo.png'

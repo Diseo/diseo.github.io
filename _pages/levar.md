@@ -45,11 +45,6 @@ A sustentabilidade compreende, além da questão ambiental, condições sociais 
 
 <figure><img src="{{ site.baseurl }}/assets/levar/uso_ar.jpg"/></figure>
 
-### descarregamento
-As malas deslizam no descarregamento por conta do baixo atrito. Primeiro deve se descarregar a parte da frente devido ao volume de bagagens.
-
-<figure><img class="img_small" src="{{ site.baseurl }}/assets/levar/descarregamento.jpg"/></figure>
-
 ### controle seletor
 A seleção da posição é realizada através de um controle seletor rotativo, provido de um botão no centro
 
@@ -60,6 +55,11 @@ A seleção da posição é realizada através de um controle seletor rotativo, 
 o operador de bagagens empilha as malas em fileiras, em seguida, empurra uniformemente com a ajuda de uma pá; repetindo o processo algumas vezes, todas as malas são organizadas e o compartimento é preenchido.
 
 <figure><img src="{{ site.baseurl }}/assets/levar/carregamento.jpg"/></figure>
+
+### descarregamento
+As malas deslizam no descarregamento por conta do baixo atrito. Primeiro deve se descarregar a parte da frente devido ao volume de bagagens.
+
+<figure><img class="img_small" src="{{ site.baseurl }}/assets/levar/descarregamento.jpg"/></figure>
 
 ### benefícios
 

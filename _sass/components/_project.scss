@@ -80,7 +80,7 @@
   h3 {
     font-family: 'Rubik', 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 600;
-    margin-top: 4.8rem;
+    margin-top: 7.2rem;
     margin-bottom: 0.8rem;
   }
 
@@ -91,8 +91,9 @@
     max-width: 64rem;
   }
 
-  p {
+  p, ul {
     margin-bottom: 1.6rem;
+    max-width: 64rem;
   }
 
   figure {
@@ -111,7 +112,9 @@
     margin-right: 28rem;
   }
 
-  ul { margin-bottom: 1.6rem; }
+  .right { margin-left: 28rem; }
+
+  .full { margin-right: 0; }
 
   a {
     font-weight: 600;
@@ -143,7 +146,8 @@
   }
 
   .c-project__logo {
-    width: 80%;
+    width: 0;
+    max-height: 16rem;
   }
 
   .project_info, .project_content {
@@ -164,7 +168,7 @@
       margin-right: 1.5rem;
     }
 
-    .left {
+    .left, .right {
       margin-left: 0rem;
       margin-right: 0rem;
     }

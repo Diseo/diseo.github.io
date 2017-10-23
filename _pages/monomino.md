@@ -7,7 +7,7 @@ categories:
   - item: tipografia
 permalink: monomino
 
-weight: 1
+weight: 2
 priority: 1
 color: '#78c6dc'
 
@@ -34,6 +34,8 @@ A fonte VAG6 Roman Lt é uma adaptação da fonte existente VAG Rounded. Algumas
 <figure><img class="img_small" src="{{ site.baseurl }}/assets/monomino/tipo_vag6.png"/></figure>
 
 ### identidade
+
+A pesquisa em cima do conceito da loja levou à pesquisa do público alvo que consequentemente levou à pesquisa do mobiliário adquirido por esses consumidores. A marca buscou sintetizar a simplicidade e o refinamento estético vindos desse resultado.
 
 <figure><img class="img_small" src="{{ site.baseurl }}/assets/monomino/logo_monomino.jpg"/></figure>
 

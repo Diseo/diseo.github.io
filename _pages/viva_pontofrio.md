@@ -71,5 +71,4 @@ Durante o processo, aconteceram remodelagem nos recursos do aplicativo, bem como
 Houve também uma reformulação no layout do app como um todo, acompanhando a versão de funcionalidades e criando uma integridade entre todos os elementos e telas. A construção dos elementos foram baseados no comportamento de componentes nativos e também nas diferenças entre as plataformas Android e iOS.
 
 <figure><img class="img_small" src="{{ site.baseurl }}/assets/app_image/v2.png"/></figure>
-
-> diff v2 e v3
+##### versão anterior

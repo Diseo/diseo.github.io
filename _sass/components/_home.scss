@@ -109,6 +109,11 @@ $about_top_trans: -7.8rem;
   background-size: cover;
   background-position: center;
 }
+
+// @media all and (min-width: 1600px){
+//   .c-article__main { max-width: 144.6rem }
+// }
+
 @media all and (min-width: 800px){
   .project_card {
     &:hover .card_inner .card_inner_bg {
