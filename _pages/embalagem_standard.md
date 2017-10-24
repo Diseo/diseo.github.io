@@ -5,6 +5,7 @@ categories:
   - item: produto
 permalink: embalagem_standard
 
+ano: 2012
 weight: 3
 color: '#e9a17c'
 

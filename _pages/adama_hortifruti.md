@@ -6,6 +6,7 @@ categories:
   - item: ux
 permalink: adama_hf
 
+ano: 2016
 weight: 4
 priority: 46
 color: '#00a351'

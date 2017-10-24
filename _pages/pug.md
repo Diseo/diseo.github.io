@@ -5,6 +5,7 @@ categories:
   - item: ilustração
 permalink: pug
 
+ano: 2017
 weight: 1
 priority: 20
 color: '#e46868'

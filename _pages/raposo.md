@@ -7,6 +7,7 @@ categories:
 - item: render
 permalink: raposo
 
+ano: 2014
 weight: 1
 priority: 85
 color: '#ea5933'

@@ -5,6 +5,7 @@ categories:
   - item: render
 permalink: renders
 
+ano: 2014
 weight: 1
 priority: 1
 color: '#f6920a'

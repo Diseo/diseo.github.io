@@ -5,6 +5,7 @@ categories:
   - item: interface, ux, motion
 permalink: lupah
 
+ano: 2013
 weight: 1
 priority: 100
 color: '#2dccad'

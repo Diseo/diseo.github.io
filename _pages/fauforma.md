@@ -6,6 +6,7 @@ categories:
   - item: gráfico
 permalink: fauforma
 
+ano: 2010
 weight: 1
 color: '#FFC543'
 ---

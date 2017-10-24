@@ -6,6 +6,7 @@ categories:
   - item: ux
 permalink: viva_pontofrio
 
+ano: 2015
 weight: 2
 priority: 75
 color: '#b53334'

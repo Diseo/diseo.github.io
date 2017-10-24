@@ -6,6 +6,7 @@ categories:
   - item: gráfico
 permalink: expografia_medo
 
+ano: 2015
 weight: 1
 priority: 1
 color: '#444444'

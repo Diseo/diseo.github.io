@@ -6,6 +6,7 @@ categories:
   - item: ux
 permalink: adama_book
 
+ano: 2016
 weight: 2
 priority: 44
 color: '#422554'

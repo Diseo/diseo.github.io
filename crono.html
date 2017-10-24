@@ -1,6 +1,8 @@
 ---
 layout: default
 title:
+
+permalink: crono
 ---
 <article class="c-article c-home">
   <header class="c-header c-article__header">
@@ -17,7 +19,7 @@ title:
           {% include about_card.html %}
         </a>
       {% endif %}{% endfor %}
-    {% assign sorted_pages = site.pages | sort:"priority" | reverse %}
+    {% assign sorted_pages = site.pages | sort:"ano" | reverse %}
     {% for project in sorted_pages %}
       {% if project.categories %}
         {% if project.weight == 4 %}

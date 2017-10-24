@@ -6,6 +6,7 @@ categories:
   - item: produto
 permalink: minhocao
 
+ano: 2013
 weight: 1
 priority: 40
 color: 'linear-gradient(to right, rgba(239,238,155,1), rgba(239,209,147,1))'

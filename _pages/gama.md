@@ -6,6 +6,7 @@ categories:
   - item: ux
 permalink: gama
 
+ano: 2016
 weight: 3
 priority: 41
 color: '#7F78AB'

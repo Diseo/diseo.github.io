@@ -5,6 +5,7 @@ categories:
   - item: ilustração
 permalink: espanqueador
 
+ano: 2014
 weight: 1
 priority: 35
 color: '#e46868'

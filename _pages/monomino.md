@@ -7,6 +7,7 @@ categories:
   - item: tipografia
 permalink: monomino
 
+ano: 2010
 weight: 2
 priority: 1
 color: '#78c6dc'

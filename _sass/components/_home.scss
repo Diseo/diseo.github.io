@@ -110,10 +110,6 @@ $about_top_trans: -7.8rem;
   background-position: center;
 }
 
-// @media all and (min-width: 1600px){
-//   .c-article__main { max-width: 144.6rem }
-// }
-
 @media all and (min-width: 800px){
   .project_card {
     &:hover .card_inner .card_inner_bg {
@@ -131,7 +127,23 @@ $about_top_trans: -7.8rem;
   }
 }
 
-@media all and (max-width: 800px){
+@media all and (min-width: 780px){
+  .c-home .c-article__main { max-width: 70.8rem }
+}
+
+@media all and (min-width: 1024px){
+  .c-home .c-article__main { max-width: 95.4rem }
+}
+
+@media all and (min-width: 1280px){
+  .c-home .c-article__main { max-width: 120rem }
+}
+
+// @media all and (min-width: 1600px){
+//   .c-home .c-article__main { max-width: 144.6rem }
+// }
+
+@media all and (max-width: 780px){
   .project_card .card_inner .card_labels {
     left: 1.5rem;
     bottom: -4.5rem;
