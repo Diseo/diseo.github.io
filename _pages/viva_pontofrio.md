@@ -29,7 +29,7 @@ Essa versão do aplicativo estava em prova de conceito e não foi lançada.
 
 Para descobrir os cupons bastava apontar a câmera do aplicativo para os alvos presentes em cadernos de vendas e em _wobblers_, peças gráficas localizadas nos pontos de venda.
 
-<figure><img style="position: absolute; z-index: -1; width: 92rem;" src="{{ site.baseurl }}/assets/app_image/mockup1.jpg"/></figure>
+<figure style="position: relative;"><img style="position: absolute; z-index: -1;" src="{{ site.baseurl }}/assets/app_image/mockup1.jpg"/></figure>
 <figure><img style="margin-top: -1.6rem;" src="{{ site.baseurl }}/assets/app_image/mockup_camera__.gif"/></figure>
 </div>
 

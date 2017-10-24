@@ -126,7 +126,7 @@
   }
 }
 
-@media all and (max-width: 800px){
+@media all and (max-width: 1280px){
   .photo, .back {
     margin-left: 1.5rem;
     height: 5.5rem;
@@ -160,6 +160,7 @@
 
   .c-article__main {
     padding-top: 26rem;
+    max-width: 64rem;
   }
 
   .project_content {
