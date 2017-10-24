@@ -11,7 +11,7 @@ title:
 
   <div class="c-article__main">
 
-    <div class="projects_container">
+    <div class="projects_container" data-masonry='{ "itemSelector": ".project_card", "columnWidth": 246 }'>
       {% for project in site.pages %}{% if project.sobre %}
         <a class="project_card project_card_2x1 project_card_about">
           {% include about_card.html %}
@@ -44,5 +44,6 @@ title:
   </div>
 </article>
 <div class="u-container">
-  <p style="font-size: 1.8rem;">esse site foi desenvolvido por mim (:</p>
+  <p style="font-size: 1.8rem;">esse site foi desenvolvido por mim (::</p>
 </div>
+<script src="/js/masonry.pkgd.min.js"></script>
