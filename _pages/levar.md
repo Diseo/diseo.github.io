@@ -8,7 +8,7 @@ permalink: levar
 
 ano: 2012
 weight: 3
-priority: 80
+priority: 78
 color: '#0099b5'
 
 details:

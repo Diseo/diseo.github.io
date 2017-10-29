@@ -7,7 +7,7 @@ permalink: tipografia
 
 ano: 2010
 weight: 1
-priority: 43
+priority: 35
 color: '#f6cee6'
 ---
 

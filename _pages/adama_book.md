@@ -8,7 +8,7 @@ permalink: adama_book
 
 ano: 2016
 weight: 2
-priority: 44
+priority: 40
 color: '#422554'
 
 logo: 'book_logo.png'
@@ -38,6 +38,8 @@ Para visualizar as informações dos produtos existem três caminhos, iniciando 
 Os arquivos são organizados em capítulos pertencentes a cada cultura cadastrada. A navegação pode ser feita com botões que direcionam para o próximo ou para o anterior, mas também pode ser realizado pelo Índice de capítulos, uma tela que lista os capítulos do produto.
 
 <figure><img class="img_small" src="{{ site.baseurl }}/assets/adama_book/adamabook.png"/></figure>
+
+### ícones de culturas
 
 <figure><img class="img_small" src="{{ site.baseurl }}/assets/adama_book/culturas.png"/></figure>
 ##### ícones desenvolvidos para os aplicativos Adama Hortifruti e Adama Book

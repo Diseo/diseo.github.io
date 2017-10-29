@@ -2,7 +2,9 @@
 layout: page
 title:  "lupah"
 categories:
-  - item: interface, ux, motion
+  - item: interface
+  - item: ux
+  - item: motion
 permalink: lupah
 
 ano: 2013

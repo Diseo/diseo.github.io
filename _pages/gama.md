@@ -8,7 +8,7 @@ permalink: gama
 
 ano: 2016
 weight: 3
-priority: 41
+priority: 38
 color: '#7F78AB'
 
 logo: 'gama_logo.png'

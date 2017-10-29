@@ -33,7 +33,7 @@ Pé de meia é um aplicativo que ajuda a melhorar a saúde financeira de uma for
 
 O usuário só precisa adicionar seus desejos pessoais como objetivos e o Pé de meia consegue traçar um caminho fornecendo dicas relevantes e relacionadas ao tipo de objetivo. O progresso é mostrado através de gráficos simples que indicam quanto dinheiro já foi guardado e o quanto ainda falta para completar o objetivo.
 
-### desenvolvimento
+### experiência
 
 O processo de desenvolvimento foi feito através de pesquisa do comportamento financeiro do momento e geração de idéias sem levar em consideração as limitações técnicas a fim de abrir mais possibilidades. Em seguida os partidos de conceito foram afunilados de acordo com os requisitos funcionais e técnicos, agora para viabilizar o projeto.
 
@@ -44,9 +44,13 @@ O processo de desenvolvimento foi feito através de pesquisa do comportamento fi
 <figure><img class="img_small" src="{{ site.baseurl }}/assets/pe_de_meia/protopaper.gif"/></figure>
 ##### Prototipagem em papel para testes rápidos de usabilidade
 
+### interface
+
 Por fim, uma geração de opções gráficas foi realizada e através de refinamentos guiados pela experiência que o usuário teria fosse possível chegar em um resultado final bem intuitivo. A idéia era manter uma linguagem lúdica e bem amigável.
 
 <figure><img class="img_small img_original" src="{{ site.baseurl }}/assets/pe_de_meia/telas.jpg"/></figure>
+
+### vídeo
 
 <iframe src="https://player.vimeo.com/video/62218485?byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 ##### Vídeo desenvolvido para entrega final da disciplina

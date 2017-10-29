@@ -26,6 +26,8 @@ A demanda principal do app é o gerenciamento das plantações cultivadas. Cada 
 
 > colocar timeline com todas operações
 
+### ícones de culturas
+
 <figure><img class="img_small" src="{{ site.baseurl }}/assets/adama_book/culturas.png"/></figure>
 ##### ícones desenvolvidos para os aplicativos Adama Hortifruti e Adama Book
 

@@ -7,7 +7,7 @@ categories:
 permalink: twi
 
 ano: 2010
-priority: 45
+priority: 43
 weight: 1
 color: '#b6dce7'
 
