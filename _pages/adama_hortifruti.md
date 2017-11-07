@@ -18,13 +18,17 @@ O aplicativo Adama HF permite que os agricultores registrem todas as operações
 
 <figure><img class="img_small" src="{{ site.baseurl }}/assets/adama_hf/func.png"/></figure>
 
+Para dar suporte ao desenvolvimento foi escrito um documento descritivo explicando os conceitos e definições, detalhamento da estrutura do servidor e detalhamento do comportamento do aplicativo. O detalhamento levava em conta todos os casos de uso, diferenças de plataforma e transições de telas.
+
+<figure><img src="{{ site.baseurl }}/assets/adama_hf/descritivo.png"/></figure>
+
 ### registro de cultivo
 
 A demanda principal do app é o gerenciamento das plantações cultivadas. Cada cultura é relacionada a um terreno que possui atributo de dimensão da área e junto desse cadastro é possível registrar as operações realizadas em cada cultura.
 
 <figure><img class="img_small" src="{{ site.baseurl }}/assets/adama_hf/proj_hortifruti.png"/></figure>
 
-> colocar timeline com todas operações
+<figure><img src="{{ site.baseurl }}/assets/adama_hf/fluxo_operacao.png"/></figure>
 
 ### ícones de culturas
 
@@ -36,12 +40,14 @@ A demanda principal do app é o gerenciamento das plantações cultivadas. Cada 
 Dentro do Adama Hortifruti existe o serviço do Adama Alvo - outro app mas que aqui recebe o escopo das culturas de hortifruti - que possui informações dos sintomas causados e como controlar as pragas.
 
 O app possui também um catálogo dos produtos Adama, que é cruzado com as informações de pragas para recomendar de acordo com cada indicação.
-> telas do hf-alvo
+
+<figure><img src="{{ site.baseurl }}/assets/adama_hf/fluxo_alvo.png"/></figure>
 
 ### consulta de cotações
 
 Há também o serviço para consulta das cotações atuais, com origem no site da CEAGESP.
-> telas de cotações
 
-<br><br>
+<figure><img src="{{ site.baseurl }}/assets/adama_hf/fluxo_cotacao.png"/></figure>
+
+<br>
 Apps na [Google Play](https://play.google.com/store/apps/details?id=br.com.livetouch.adamahortifruti) e na [App Store](https://itunes.apple.com/br/app/adama-hf/id1171143876?mt=8)

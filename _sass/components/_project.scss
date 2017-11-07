@@ -126,6 +126,21 @@
   }
 }
 
+.project_navbot {
+  margin-bottom: 24rem;
+
+  h4 {
+    @include fs--title;
+    float: left;
+    font-weight: 600;
+    width: 50%;
+    position: relative;
+    font-size: 2.4rem;
+    color: black;
+    line-height: 1;
+  }
+}
+
 @media all and (max-width: 1280px){
   .photo, .back {
     margin-left: 1.5rem;

@@ -10,11 +10,8 @@
 
 // Base
 @import
-  'base/reset';
-
-// Utilities
-@import
-  'utilities/layout';
+  'base/reset',
+  'base/layout';
 
 // Components
 @import
@@ -27,7 +24,7 @@
   'components/footer',
   'components/home',
   'components/project';
-  
+
 // Vendor
 @import
   'vendor/syntax-highlighting';

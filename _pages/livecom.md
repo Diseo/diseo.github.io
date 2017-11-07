@@ -15,7 +15,7 @@ logo: 'livecom_logo.png'
 
 ---
 
-Livecom é um sistema web e mobile para compartilhamento de informações através de publicações. É uma maneira de reportar o status de trabalho, compartilhar conhecimento e ter um forúm no ambiente de trabalho para que não seja tão formal e flua com mais naturalidade dentro da equipe.
+Livecom é um sistema web e mobile para compartilhamento de informações através de publicações. É uma maneira de reportar o status de trabalho, compartilhar conhecimento e ter um forúm no ambiente de trabalho, diminuindo a formalidade excedente na comunicação, permitindo uma fluidez mais natural dentro da equipe.
 
 <figure><img src="{{ site.baseurl }}/assets/livecom/plataformas.png"/></figure>
 
@@ -23,26 +23,28 @@ Livecom é um sistema web e mobile para compartilhamento de informações atrav�
 
 ### grupos e usuários
 
-No ambiente é possível criar grupos para fazer a segmentação de conteúdo, priorização de recebimento e organização de publicações. O sistema possui níveis de perfis flexíveis, ou seja, cada tipo de usuário com uma permissão diferente de visualização e gerenciamento. Foi desenvolvido os fluxos para criação de usuário e de grupo, além de telas com as diversas configurações da ferramenta.
+No ambiente é possível criar grupos para fazer a segmentação de audiência do conteúdo, priorização de recebimento e organização de publicações. O sistema possui níveis de perfis configuráveis, ou seja, cada tipo de usuário possui uma permissão diferente de visualização e gerenciamento.
+
+Foi desenvolvido os fluxos para criação de usuário e de grupo, além das telas de configuração do sistema que gerencia as permissões.
 
 <figure><img src="{{ site.baseurl }}/assets/livecom/grupos.png"/></figure>
 
 ### mural
 
-As publicações possuem diversos atributos como autor, grupos direcionados, categorias, tags, data e hora, título, conteúdo de texto, imagens em anexo, funcionalidade de curtir e comentários. Foi feito um trabalho de arquitetura de todas informações presentes levando em consideração as possíveis variações de exibição.
+As publicações possuem diversos atributos como autor, audiência por meio de grupos, categorias, tags, data e hora, título, conteúdo de texto, imagens em anexo, funcionalidade de curtir e comentários. Foi feito um trabalho na arquitetura de todas informações levando em consideração as possíveis variações de exibição decorrentes da modularização.
 
 {: .img_small }
 <figure><img src="{{ site.baseurl }}/assets/livecom/mural_publi.png"/></figure>
 
-O fluxo de publicação possuia diversos requisitos, a versão mobile foi simplificada em relação a versão desktop.
+O fluxo de publicação possui diversos requisitos, para a versão mobile foi pensada um escopo menor, suprindo as necessidades e mantendo a agilidade no uso do dispositivo móvel.
 
 <figure><img src="{{ site.baseurl }}/assets/livecom/publicar.png"/></figure>
 
 ### arquivos
 
-Possuindo um repositório dos arquivos anexados nas publicações, foi desenvolvido uma interface pra upload de arquivos em geral, centralizando e integrando para facilitar o uso posterior das imagens e documentos.
+Cada ambiente possui um repositório de arquivos anexados nas publicações e uma interface pra upload de arquivos em geral. Essa centralização integra o sistema para facilitar a reutilização de imagens e documentos.
 
-A estrutura e interface dessa funcionalidade foi pensada para manter a clareza na organização dos diversos tipos de arquivos, e para manter a estrutra disponibilizada no ambiente como um todo, possibilitando diversos tipos de filtros.
+A estrutura e interface dessa funcionalidade foi pensada para manter a clareza na organização dos diversos tipos de arquivos, e para manter a estrutra disponibilizada no ambiente como um todo, possibilitando a filtragem por meio dos atributos presentes nas publicações.
 
 {: .img_small }
 <figure><img src="{{ site.baseurl }}/assets/livecom/arquivos.png"/></figure>
@@ -63,19 +65,18 @@ O espaço lateral direito utilizado para as notificações foram aproveitadas pa
 
 ### autosetup
 
-Potenciais clientes podem experimentar a ferramenta criando um ambiente próprio para testar. Foi pensado o fluxo de criação de ambiente, contando com validações de segurança e etapas para autoconfiguração.
+Potenciais clientes podem experimentar a ferramenta criando um ambiente próprio para testar. Foi pensado no fluxo de criação de ambiente, contando com validações de segurança e etapas para autoconfiguração.
 
 {: .img_small }
 <figure><img src="{{ site.baseurl }}/assets/livecom/auto.png"/></figure>
 
-Ao criar o ambiente, era possível já realizar o envio de convites. Para ter acesso ao ambiente os convidados precisavam finalizar o cadastro, podendo ser feito pelos aplicativos.
+Na criação do ambiente é possível realizar o envio de convites para os usuários. Para ter acesso ao ambiente, os convidados precisavam finalizar o cadastro, podendo ser feito por meio dos aplicativos.
 
 <figure><img src="{{ site.baseurl }}/assets/livecom/auto2.png"/></figure>
 
 ### chat
 
-Um serviço de chat também está presente no sistema, possuindo as funções básicas de conversação. Algumas funcionalidades puderam ser bem integradas como o envio de arquivo (integrado com o repositório de arquivos),
-criação de grupo de conversas (integrado com os grupos do ambiente) e push notifications.
+Um serviço de chat também está presente no sistema, possuindo as funções básicas de conversação. Algumas funcionalidades puderam ser bem integradas como, por exemplo, o envio de arquivo (integrado com o repositório de arquivos), criação de grupo de conversas (integrado com os grupos do ambiente) e push notifications.
 
 <figure><img src="{{ site.baseurl }}/assets/livecom/chat.png"/></figure>
 
@@ -87,6 +88,6 @@ Uma família iconográfica foi desenvolvida para transmitir melhor a idéia de a
 
 ### customização
 
-As funcionalidades são modulares a ponto de poderem ser incluídas ou retiradas de um ambiente específico através de parâmetros. É possível remover de um ambiente funcionalidades macro como o chat e arquivos na nuvem, mas as micro funcionalidades também são parametrizadas, como possibilidade de comentários de usuários.
+As funcionalidades são modulares a ponto de poderem ser incluídas ou retiradas de um ambiente específico através de parâmetros. É possível remover de um ambiente funcionalidades macro como o chat e arquivos na nuvem. Algumas outras funcionalidades também são possíveis de serem adicionadas ou removidas como, por exemplo, possibilidade de comentários de usuários.
 
-Também é possível personalizar o ambiente de acordo com a identidade da cliente, foram realizados estudos para definir e limitar o que seria variável.
+Também é possível personalizar o ambiente de acordo com a identidade do cliente. Foram realizados estudos para definir e limitar quais elementos seriam personalizáveis.

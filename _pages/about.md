@@ -12,4 +12,3 @@ resume: 'Gosto muito de conhecer os requisitos, investigar os detalhes e projeta
 
 Considero muito importante o trabalho em equipe, pois acredito que discutir e cruzar conhecimento é essencial para se criar algo.'
 ---
-durante minha formação acadêmica tive a oportunidade de descobrir as diversas áreas possíveis de serem exploradas por um designer.
