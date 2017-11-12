@@ -1,10 +1,8 @@
 # Site settings
 title: Leonardo Akamatsu
-email: your-email@domain.com
+email: leoakamatsu@gmail.com
 description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  My website portfolio.
 baseurl: ""
 url: ""
 fixedNav: 'false' # true or false
@@ -17,4 +15,7 @@ exclude: [_site, CHANGELOG.md, LICENSE, README.md]
 sass:
   style: compressed
 plugins:
-  #  - jekyll-admin
+#  - jekyll-admin
+
+# Google Analytics
+google_analytics: UA-109518257-1
