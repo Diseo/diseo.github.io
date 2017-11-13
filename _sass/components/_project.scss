@@ -9,9 +9,6 @@
     margin-left: -2rem;
     text-align: left;
     @include fs--title;
-    line-height: 0.9;
-    font-size: 5.6rem;
-    font-weight: 500;
     color: $c__black;
   }
 
@@ -67,7 +64,6 @@
 
   span {
     font-weight: 700;
-    // color: rgba(0,0,0,0.6);
   }
 
   li { margin-bottom: 0.8rem}
@@ -78,15 +74,13 @@
   width: 92rem;
 
   h3 {
-    font-family: 'Rubik', 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
-    font-weight: 600;
+    @include fs--heading-3;
     margin-top: 7.2rem;
     margin-bottom: 0.8rem;
   }
 
   h5 {
-    font-family: 'Rubik', 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
-    font-weight: 500;
+    @include fs--heading-5;
     margin-bottom: 3.2rem;
     max-width: 64rem;
   }

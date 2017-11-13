@@ -42,15 +42,11 @@
       @include trans500;
     }
 
-    h3 {
-      @include fs--title;
-      font-weight: 600;
-      // text-shadow: 0 0.2rem 0 rgba(255,249,237,0.4);
+    h2 {
+      @include fs--heading-2;
       width: 72%;
       position: relative;
-      font-size: 3rem;
       color: black;
-      line-height: 1;
 
       span {
         font-weight: 500;
@@ -93,13 +89,13 @@
   height: 2 * $c_card + 2*$c_card_margin;
 }
 
-$about_top_trans: -7.8rem;
+$about_top_translate: -7.8rem;
 .project_card_about {
-  -webkit-transform: translate(0, $about_top_trans);
-	-moz-transform: translate(0, $about_top_trans);
-	-ms-transform: translate(0, $about_top_trans);
-	-o-transform: translate(0, $about_top_trans);
-	transform: translate(0, $about_top_trans);
+  -webkit-transform: translate(0, $about_top_translate);
+	-moz-transform: translate(0, $about_top_translate);
+	-ms-transform: translate(0, $about_top_translate);
+	-o-transform: translate(0, $about_top_translate);
+	transform: translate(0, $about_top_translate);
 }
 
 .img_cover {
