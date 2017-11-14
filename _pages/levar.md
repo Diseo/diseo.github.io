@@ -50,7 +50,9 @@ A sustentabilidade compreende, além da questão ambiental, condições sociais 
 A seleção da posição é realizada através de um controle seletor rotativo, provido de um botão no centro
 
 <figure><img src="{{ site.baseurl }}/assets/levar/controle.jpg"/></figure>
-<figure><img class="img_small" src="{{ site.baseurl }}/assets/levar/controle2.jpg"/></figure>
+
+{: .img_small }
+<figure><img src="{{ site.baseurl }}/assets/levar/controle2.jpg"/></figure>
 
 ### carregamento
 o operador de bagagens empilha as malas em fileiras, em seguida, empurra uniformemente com a ajuda de uma pá; repetindo o processo algumas vezes, todas as malas são organizadas e o compartimento é preenchido.

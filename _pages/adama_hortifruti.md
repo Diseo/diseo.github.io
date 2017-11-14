@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_full
 title:  "adama hortifruti"
 categories:
   - item: interface
@@ -16,7 +16,8 @@ logo: 'adama_hf.png'
 
 O aplicativo Adama HF permite que os agricultores registrem todas as operações realizadas em suas culturas de Hortifruti. Além disso, o aplicativo possui informações sobre os principais alvos das culturas e indicações do catálogo de produtos da Adama. Há também um serviço para exibição das cotações de preços atualizadas do CEAGESP.
 
-<figure><img class="img_small" src="{{ site.baseurl }}/assets/adama_hf/func.png"/></figure>
+{: .img_small }
+<figure><img src="{{ site.baseurl }}/assets/adama_hf/func.png"/></figure>
 
 Para dar suporte ao desenvolvimento foi escrito um documento descritivo explicando os conceitos e definições, detalhamento da estrutura do servidor e detalhamento do comportamento do aplicativo. O detalhamento levava em conta todos os casos de uso, diferenças de plataforma e transições de telas.
 
@@ -26,13 +27,14 @@ Para dar suporte ao desenvolvimento foi escrito um documento descritivo explican
 
 A demanda principal do app é o gerenciamento das plantações cultivadas. Cada cultura é relacionada a um terreno que possui atributo de dimensão da área e junto desse cadastro é possível registrar as operações realizadas em cada cultura.
 
-<figure><img class="img_small" src="{{ site.baseurl }}/assets/adama_hf/proj_hortifruti.png"/></figure>
+<figure><img src="{{ site.baseurl }}/assets/adama_hf/proj_hortifruti.png"/></figure>
 
 <figure><img src="{{ site.baseurl }}/assets/adama_hf/fluxo_operacao.png"/></figure>
 
 ### ícones de culturas
 
-<figure><img class="img_small" src="{{ site.baseurl }}/assets/adama_book/culturas.png"/></figure>
+{: .img_small }
+<figure><img src="{{ site.baseurl }}/assets/adama_book/culturas.png"/></figure>
 ##### ícones desenvolvidos para os aplicativos Adama Hortifruti e Adama Book
 
 ### informações de pragas

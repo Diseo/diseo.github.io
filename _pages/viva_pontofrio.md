@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_full
 title:  "viva pontofrio"
 categories:
   - item: interface
@@ -54,7 +54,8 @@ A tela do localizador de lojas e estoque de produto mostrava as lojas mais próx
 
 O aplicativo possuia um sistema para captar os interesses do usuário, a fim de direcionar os segmentos de produtos de forma inteligente.
 
-<figure><img class="img_small" src="{{ site.baseurl }}/assets/app_image/mockup4.jpg"/></figure>
+{: .img_small }
+<figure><img src="{{ site.baseurl }}/assets/app_image/mockup4.jpg"/></figure>
 
 ### dicas de uso
 
@@ -71,5 +72,6 @@ Durante o processo, aconteceram remodelagem nos recursos do aplicativo, bem como
 
 Houve também uma reformulação no layout do app como um todo, acompanhando a versão de funcionalidades e criando uma integridade entre todos os elementos e telas. A construção dos elementos foram baseados no comportamento de componentes nativos e também nas diferenças entre as plataformas Android e iOS.
 
-<figure><img class="img_small" src="{{ site.baseurl }}/assets/app_image/v2.png"/></figure>
+{: .img_small }
+<figure><img src="{{ site.baseurl }}/assets/app_image/v2.png"/></figure>
 ##### versão anterior

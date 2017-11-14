@@ -1,0 +1,70 @@
+---
+layout: default
+---
+<article class="c-article">
+  <div class="u-container"><div class="c-project__cover" style="background:{{ page.color }}"></div></div>
+  <header class="c-header c-page__header">
+    <div class="u-container">
+      <div class="project_title_group">
+        {% if page.logo %}
+        <img class="c-project__logo" src="{{ site.baseurl }}/assets/{{ page.permalink }}/{{ page.logo }}"/>
+        {% else %}
+        <h1 class="c-project__title">{{ page.title }}</h1>
+        {% endif %}
+      </div>
+      <a class="back" href="{{ site.baseurl }}/">
+        <svg viewBox="0 0 24 24">
+          <path fill="{{ page.color }}" d="M18.41,16.59L13.82,12L18.41,7.41L17,6L11,12L17,18L18.41,16.59M6,6H8V18H6V6Z" />
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <!-- <div class="c-article__main"> -->
+    <!-- <div class="project_info">
+      <ul>
+        <li><span>
+          {% if page.categories.size == 1 %}
+            categoria
+          {% else %}
+            categorias
+          {% endif %}</span><br>
+          {% for category in page.categories %} {% if forloop.last == false %}
+              {{ category.item }},
+            {% else %}
+              {{ category.item }}
+          {% endif %} {% endfor %}</li>
+        {% for detail in page.details %}
+        <li><span>{{ detail.item.key }}</span><br>{{ detail.item.value }}</li>
+        {% endfor %}
+      </ul>
+    </div> -->
+    <div class="project_content_full">
+    {{ content }}
+    </div>
+  <!-- </div> -->
+
+  {% assign sorted_pages = site.pages | sort:"priority" | reverse %}
+
+  {% for proj in sorted_pages %}
+    {% if proj.categories %}{% if page.permalink == proj.permalink %}
+    {% assign next_i = forloop.index0 | plus: 1 %}
+    {% assign prev_i = forloop.index0 | minus: 1 %}
+
+    <div class="u-container project_navbot">
+      {% assign last_proj = sorted_pages.size | minus:9 %}
+      {% if prev_i == -1 %}
+      <a href="{{ sorted_pages[last_proj].permalink }}"><h4>projeto anterior</h4></a>
+      {% else %}
+      <a href="{{ sorted_pages[prev_i].permalink }}"><h4>projeto anterior</h4></a>
+      {% endif %}
+      {% if next_i > last_proj %}
+      <a href="{{ sorted_pages[0].permalink }}"><h4 style="text-align:right">próximo projeto</h4></a>
+      {% else %}
+      <a href="{{ sorted_pages[next_i].permalink }}"><h4 style="text-align:right">próximo projeto</h4></a>
+      {% endif %}
+    </div>
+
+    {% endif %}{% endif %}
+  {% endfor %}
+</article>

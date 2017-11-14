@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_full
 title:  "plataforma livecom"
 categories:
   - item: interface
@@ -17,6 +17,7 @@ logo: 'livecom_logo.png'
 
 Livecom é um sistema web e mobile para compartilhamento de informações através de publicações. É uma maneira de reportar o status de trabalho, compartilhar conhecimento e ter um forúm no ambiente de trabalho, diminuindo a formalidade excedente na comunicação, permitindo uma fluidez mais natural dentro da equipe.
 
+{: .left .full }
 <figure><img src="{{ site.baseurl }}/assets/livecom/plataformas.png"/></figure>
 
 <figure><img src="{{ site.baseurl }}/assets/livecom/features.png"/></figure>
@@ -27,7 +28,11 @@ No ambiente é possível criar grupos para fazer a segmentação de audiência d
 
 Foi desenvolvido os fluxos para criação de usuário e de grupo, além das telas de configuração do sistema que gerencia as permissões.
 
+{: .left .full }
 <figure><img src="{{ site.baseurl }}/assets/livecom/grupos.png"/></figure>
+
+{: .antiquewhite }
+<div markdown="1">
 
 ### mural
 
@@ -38,7 +43,10 @@ As publicações possuem diversos atributos como autor, audiência por meio de g
 
 O fluxo de publicação possui diversos requisitos, para a versão mobile foi pensada um escopo menor, suprindo as necessidades e mantendo a agilidade no uso do dispositivo móvel.
 
+{: .left .full }
 <figure><img src="{{ site.baseurl }}/assets/livecom/publicar.png"/></figure>
+
+</div>
 
 ### arquivos
 
@@ -72,18 +80,21 @@ Potenciais clientes podem experimentar a ferramenta criando um ambiente próprio
 
 Na criação do ambiente é possível realizar o envio de convites para os usuários. Para ter acesso ao ambiente, os convidados precisavam finalizar o cadastro, podendo ser feito por meio dos aplicativos.
 
+{: .left .full }
 <figure><img src="{{ site.baseurl }}/assets/livecom/auto2.png"/></figure>
 
 ### chat
 
 Um serviço de chat também está presente no sistema, possuindo as funções básicas de conversação. Algumas funcionalidades puderam ser bem integradas como, por exemplo, o envio de arquivo (integrado com o repositório de arquivos), criação de grupo de conversas (integrado com os grupos do ambiente) e push notifications.
 
+{: .left .full }
 <figure><img src="{{ site.baseurl }}/assets/livecom/chat.png"/></figure>
 
 ### iconografia
 
 Uma família iconográfica foi desenvolvida para transmitir melhor a idéia de algumas literais e também para facilitar o uso no desenvolvimento e otimizar o processo de geração de assets.
 
+{: .left .full }
 <figure><img src="{{ site.baseurl }}/assets/livecom/icones.png"/></figure>
 
 ### customização

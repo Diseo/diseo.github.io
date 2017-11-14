@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_full
 title:  "parque minhocão"
 categories:
   - item: gráfico
