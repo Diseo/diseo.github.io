@@ -56,10 +56,11 @@
 }
 
 .project_info {
+  @include fs--heading-5;
   float: left;
   width: 28rem;
   padding-right: 5%;
-  font-family: 'Rubik', 'Helvetica Neue', Helvetica, sans-serif;
+
   font-weight: 500;
 
   span {
@@ -74,7 +75,7 @@
   width: 92rem;
 
   h3 {
-    @include fs--heading-3;
+    @include fs--heading-2;
     margin-top: 7.2rem;
     margin-bottom: 0.8rem;
   }
