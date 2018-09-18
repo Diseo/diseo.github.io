@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "embalagem de vidro standard"
+title:  "embalagem standard"
 categories:
   - item: produto
 permalink: embalagem_standard

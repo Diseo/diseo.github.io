@@ -7,8 +7,10 @@
   <!-- iOS Safari -->
   <meta name="apple-mobile-web-app-status-bar-style" content="#fff5e0">
 
-  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:image" content="{{ site.baseurl }}/assets/proj_adama_hf.jpg">
+
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/favicon-16x16.png" sizes="16x16" />
 

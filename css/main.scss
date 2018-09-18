@@ -5,8 +5,8 @@
 
 // Helpers
 @import
-  'helpers/variables',
-  'helpers/mixins';
+  'base/variables',
+  'base/mixins';
 
 // Base
 @import
@@ -27,4 +27,4 @@
 
 // Vendor
 @import
-  'vendor/syntax-highlighting';
+  'base/syntax-highlighting';

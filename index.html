@@ -11,17 +11,21 @@ title:
 
   <div class="c-article__main">
 
-    <div class="projects_container" data-masonry='{ "itemSelector": ".project_card", "columnWidth": 246 }'>
+    <div class="projects_container" data-masonry='{ "itemSelector": ".project_card", "columnWidth": 203 }'>
       {% for project in site.pages %}{% if project.sobre %}
-        <a class="project_card project_card_2x1 project_card_about">
+        <a class="project_card project_card_3x1 project_card_about">
           {% include about_card.html %}
         </a>
       {% endif %}{% endfor %}
     {% assign sorted_pages = site.pages | sort:"priority" | reverse %}
     {% for project in sorted_pages %}
       {% if project.categories %}
-        {% if project.weight == 4 %}
-        <a href= "{{ project.permalink }}" class="project_card project_card_4x">
+        {% if project.weight == 6%}
+        <a href= "{{ project.permalink }}" class="project_card project_card_3x2">
+          {% include project_card.html %}
+        </a>
+        {% elsif project.weight == 4%}
+        <a href= "{{ project.permalink }}" class="project_card project_card_2x2">
           {% include project_card.html %}
         </a>
         {% elsif project.weight == 3%}
@@ -29,11 +33,11 @@ title:
           {% include project_card.html %}
         </a>
         {% elsif project.weight == 2%}
-        <a href= "{{ project.permalink }}" class="project_card project_card_2x">
+        <a href= "{{ project.permalink }}" class="project_card project_card_1x2">
           {% include project_card.html %}
         </a>
         {% else %}
-        <a href= "{{ project.permalink }}" class="project_card project_card_1x">
+        <a href= "{{ project.permalink }}" class="project_card project_card_1x1">
           {% include project_card.html %}
         </a>
         {% endif %}
