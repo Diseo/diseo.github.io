@@ -1,0 +1,121 @@
+/* ==========================================================================
+   Mixins
+   ========================================================================== */
+
+// Font families
+@mixin ff--sans-serif($font-weight: normal) {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: $font-weight;
+}
+
+@mixin ff--mono($font-weight: normal) {
+  font-family: monospace;
+  font-weight: $font-weight;
+}
+
+$font-display: 'Nunito Sans', 'Helvetica Neue', Helvetica, sans-serif;
+
+// Font sizing
+@mixin fs--title {
+  font-family: $font-display;
+  line-height: 0.9;
+  font-size: 5.6rem;
+  font-weight: 700;
+}
+
+@mixin fs--heading-1 {
+  font-family: $font-display;
+  line-height: 1.25;
+  font-size: 3.5rem; // 35px
+}
+
+@mixin fs--heading-2 {
+  font-family: $font-display;
+  line-height: 1;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+@mixin fs--heading-3 {
+  font-family: $font-display;
+  line-height: 1.6;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+@mixin fs--heading-5 {
+  font-family: $font-display;
+  line-height: 1.6;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+@mixin fs--body {
+  line-height: 1.6;
+  font-size: 1.8rem; // 18px
+}
+
+@mixin fs--meta {
+  line-height: 1;
+  font-size: 2rem; // 16px
+}
+
+@mixin box-shadow {
+    -webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.1), 0 2px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 8px 8px rgba(0,0,0,0.1), 0 4px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 3px rgba(0,0,0,0.1), 0 2px 2px rgba(0,0,0,0.2);
+}
+
+@mixin box-shadow-animate {
+    &:hover {
+      -webkit-box-shadow: 0 14px 14px rgba(0,0,0,0.04), 0 8px 8px rgba(0,0,0,0.08);
+      -moz-box-shadow: 0 14px 14px rgba(0,0,0,0.04), 0 8px 8px rgba(0,0,0,0.08);
+      box-shadow: 0 14px 14px rgba(0,0,0,0.04), 0 8px 8px rgba(0,0,0,0.08);
+    }
+    &:active {
+      -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.04), 0 1px 1px rgba(0,0,0,0.08);
+      -moz-box-shadow: 0 2px 2px rgba(0,0,0,0.04), 0 1px 1px rgba(0,0,0,0.08);
+      box-shadow: 0 2px 2px rgba(0,0,0,0.04), 0 1px 1px rgba(0,0,0,0.08);
+    }
+}
+
+@mixin flat-shadow-animate {
+  $flat_shadow: 0.1;
+  -webkit-box-shadow: 0 2px 0px rgba(0,0,0,$flat_shadow);
+  -moz-box-shadow: 0 2px 0px rgba(0,0,0,$flat_shadow);
+  box-shadow: 0 2px 0px rgba(0,0,0,$flat_shadow);
+    &:hover {
+      -webkit-box-shadow: 0 4px 1px rgba(0,0,0,$flat_shadow);
+      -moz-box-shadow: 0 4px 1px rgba(0,0,0,$flat_shadow);
+      box-shadow: 0 4px 1px rgba(0,0,0,$flat_shadow);
+    }
+    &:active {
+      -webkit-box-shadow: 0 1px 0px rgba(0,0,0,$flat_shadow);
+      -moz-box-shadow: 0 1px 0px rgba(0,0,0,$flat_shadow);
+      box-shadow: 0 1px 0px rgba(0,0,0,$flat_shadow);
+    }
+}
+
+@mixin trans200 {
+  -webkit-transition:all ease-out 0.2s;
+  -moz-transition:all ease-out 0.2s;
+  -o-transition:all ease-out 0.2s;
+  -ms-transition:all ease-out 0.2s;
+  transition:all ease-out 0.2s;
+}
+
+@mixin trans500 {
+  -webkit-transition:all ease-out 0.5s;
+  -moz-transition:all ease-out 0.5s;
+  -o-transition:all ease-out 0.5s;
+  -ms-transition:all ease-out 0.5s;
+  transition:all ease-out 0.5s;
+}
+
+@mixin trans800 {
+  -webkit-transition:all ease-out 0.8s;
+  -moz-transition:all ease-out 0.8s;
+  -o-transition:all ease-out 0.8s;
+  -ms-transition:all ease-out 0.8s;
+  transition:all ease-out 0.8s;
+}

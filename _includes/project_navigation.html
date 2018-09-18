@@ -1,0 +1,23 @@
+{% assign sorted_pages = site.pages | sort:"priority" | reverse %}
+
+{% for proj in sorted_pages %}
+  {% if proj.categories %}{% if page.permalink == proj.permalink %}
+  {% assign next_i = forloop.index0 | plus: 1 %}
+  {% assign prev_i = forloop.index0 | minus: 1 %}
+
+  <div class="u-container project_navbot">
+    {% assign last_proj = sorted_pages.size | minus:9 %}
+    {% if prev_i == -1 %}
+    <a href="{{ sorted_pages[last_proj].permalink }}"><h4>← projeto anterior</h4></a>
+    {% else %}
+    <a href="{{ sorted_pages[prev_i].permalink }}"><h4>← projeto anterior</h4></a>
+    {% endif %}
+    {% if next_i > last_proj %}
+    <a href="{{ sorted_pages[0].permalink }}"><h4 style="text-align:right">próximo projeto →</h4></a>
+    {% else %}
+    <a href="{{ sorted_pages[next_i].permalink }}"><h4 style="text-align:right">próximo projeto →</h4></a>
+    {% endif %}
+  </div>
+
+  {% endif %}{% endif %}
+{% endfor %}
