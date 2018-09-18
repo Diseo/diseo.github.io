@@ -198,6 +198,10 @@
     font-size: 2.4rem;
     color: black;
     line-height: 1;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
