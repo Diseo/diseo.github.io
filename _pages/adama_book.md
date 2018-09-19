@@ -7,7 +7,7 @@ categories:
 permalink: adama_book
 
 ano: 2016
-weight: 2
+weight: 3
 priority: 40
 color: '#422554'
 

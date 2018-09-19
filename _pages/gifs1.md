@@ -5,8 +5,8 @@ categories:
   - item: ilustração
 permalink: gifs1
 
-weight: 4
-priority: 20
+weight: 3.2
+priority: 15
 color: '#e46868'
 ---
 

@@ -29,15 +29,15 @@ Essa versão do aplicativo estava em prova de conceito e não foi lançada.
 
 Para descobrir os cupons bastava apontar a câmera do aplicativo para os alvos presentes em cadernos de vendas e em _wobblers_, peças gráficas localizadas nos pontos de venda.
 
-<figure style="position: relative;"><img style="position: absolute; z-index: -1;" src="{{ site.baseurl }}/assets/app_image/mockup1.jpg"/></figure>
-<figure><img style="margin-top: -1.6rem;" src="{{ site.baseurl }}/assets/app_image/mockup_camera__.gif"/></figure>
+<figure style="position: relative;"><img style="position: absolute; z-index: -1;" src="{{ site.baseurl }}/assets/viva_pontofrio/mockup1.jpg"/></figure>
+<figure><img style="margin-top: -1.6rem;" src="{{ site.baseurl }}/assets/viva_pontofrio/mockup_camera__.gif"/></figure>
 </div>
 
 ### cupons
 
 Ao salvar o cupom ele era guardado numa lista que informava o valor do desconto, o tempo de expiração, código para desconto na compra e atalho para verificação de estoque.
 
-<figure><img src="{{ site.baseurl }}/assets/app_image/mockup2.jpg"/></figure>
+<figure><img src="{{ site.baseurl }}/assets/viva_pontofrio/mockup2.jpg"/></figure>
 
 {: .left}
 <div markdown="1">
@@ -46,7 +46,7 @@ Ao salvar o cupom ele era guardado numa lista que informava o valor do desconto,
 
 A tela do localizador de lojas e estoque de produto mostrava as lojas mais próximas através de um mapa, mas era possível visualizar também em formato de lista.
 
-<figure><img src="{{ site.baseurl }}/assets/app_image/mockup3_.jpg"/></figure>
+<figure><img src="{{ site.baseurl }}/assets/viva_pontofrio/mockup3_.jpg"/></figure>
 
 </div>
 
@@ -55,14 +55,14 @@ A tela do localizador de lojas e estoque de produto mostrava as lojas mais próx
 O aplicativo possuia um sistema para captar os interesses do usuário, a fim de direcionar os segmentos de produtos de forma inteligente.
 
 {: .img_small }
-<figure><img src="{{ site.baseurl }}/assets/app_image/mockup4.jpg"/></figure>
+<figure><img src="{{ site.baseurl }}/assets/viva_pontofrio/mockup4.jpg"/></figure>
 
 ### dicas de uso
 
 Foram desenvolvidas telas de tutorial para o primeiro acesso (onboarding), essas dicas podiam ser reativadas através do menu. Outras ações informativas foram feitas, como tooltips que são instruções menos invasivas, para casos em que a exibição da informação era bem controlada.
 
 {: .img_small}
-<figure><img src="{{ site.baseurl }}/assets/app_image/onboarding.png"/></figure>
+<figure><img src="{{ site.baseurl }}/assets/viva_pontofrio/onboarding.png"/></figure>
 
 ### desenvolvimento
 
@@ -73,5 +73,5 @@ Durante o processo, aconteceram remodelagem nos recursos do aplicativo, bem como
 Houve também uma reformulação no layout do app como um todo, acompanhando a versão de funcionalidades e criando uma integridade entre todos os elementos e telas. A construção dos elementos foram baseados no comportamento de componentes nativos e também nas diferenças entre as plataformas Android e iOS.
 
 {: .img_small }
-<figure><img src="{{ site.baseurl }}/assets/app_image/v2.png"/></figure>
+<figure><img src="{{ site.baseurl }}/assets/viva_pontofrio/v2.png"/></figure>
 ##### versão anterior

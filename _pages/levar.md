@@ -7,7 +7,7 @@ categories:
 permalink: levar
 
 ano: 2012
-weight: 3
+weight: 3.2
 priority: 78
 color: '#0099b5'
 

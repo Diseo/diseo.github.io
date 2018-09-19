@@ -8,8 +8,8 @@ categories:
 permalink: raposo
 
 ano: 2014
-weight: 1
-priority: 85
+weight: 3
+priority: 75
 color: '#ea5933'
 
 logo: 'raposo_logo.png'

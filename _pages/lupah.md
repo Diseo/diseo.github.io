@@ -9,7 +9,7 @@ permalink: lupah
 
 ano: 2013
 weight: 1
-priority: 100
+priority: 80
 color: '#2dccad'
 
 details:

@@ -8,7 +8,7 @@ permalink: pe_de_meia
 
 ano: 2012
 weight: 6
-priority: 90
+priority: 100
 color: '#52BA9A'
 
 details:

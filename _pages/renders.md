@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "estudos de render"
+title:  "renders"
 categories:
   - item: render
 permalink: renders

@@ -6,7 +6,8 @@ categories:
 permalink: embalagem_standard
 
 ano: 2012
-weight: 3
+weight: 2
+priority: 1
 color: '#e9a17c'
 
 details:

@@ -7,6 +7,7 @@ categories:
 permalink: fauforma
 
 ano: 2010
+priority: 2
 weight: 1
 color: '#FFC543'
 ---

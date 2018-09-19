@@ -7,7 +7,7 @@ categories:
 permalink: livecom
 
 ano: 2017
-weight: 4
+weight: 3
 priority: 80
 color: '#0096D0'
 

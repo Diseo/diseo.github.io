@@ -6,7 +6,7 @@ categories:
 permalink: desenhos1
 
 ano: 2014
-weight: 4
+weight: 3
 priority: 36
 color: '#e46868'
 ---

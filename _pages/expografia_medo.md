@@ -8,7 +8,7 @@ permalink: expografia_medo
 
 ano: 2015
 weight: 1
-priority: 1
+priority: 2
 color: '#777'
 
 details:

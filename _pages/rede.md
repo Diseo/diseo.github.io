@@ -7,8 +7,8 @@ categories:
   - item: ux
 
 ano: 2017
-weight: 4
-priority: 44
+weight: 3
+priority: 48
 color: '#F47827'
 ---
 

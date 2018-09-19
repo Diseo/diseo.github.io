@@ -29,6 +29,8 @@ $c__white: #ffffff;
 // Theme
 $t-theme: $c__indigo;
 
+$c_columns: 8;
 $c_card_padding: 0rem;
-$c_card_margin: .9rem;
-$c_card: 20.3rem - 2*$c_card_margin;
+$c_card_margin: 1rem;
+// $c_card:  20.3rem - 2*$c_card_margin;
+$c_card: (( 120rem + 2*$c_card_margin ) / $c_columns) - 2*$c_card_margin; //132.5
