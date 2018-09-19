@@ -7,7 +7,7 @@ categories:
 permalink: gama
 
 ano: 2016
-weight: 3
+weight: 1
 priority: 38
 color: '#7F78AB'
 

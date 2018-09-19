@@ -29,7 +29,9 @@ logo: 'lupah_logo.png'
 
 Lupah é um projeto para dar suporte à população sobre o melhor direcionamento a prontos socorros e hospitais, além de possuir uma aplicação com localizador de unidades de saúde.
 
-{: .img_small}
+_
+
+
 <figure><img src="{{ site.baseurl }}/assets/lupah/lupah_mockup.jpg"/></figure>
 
 ### ideação
@@ -48,7 +50,6 @@ O sistema de saúde está separado em 3 níveis de atendimento, e  nos casos de 
 
 Os estudos de fluxo foram feitos em parceria com um estudante de medicina, que possuia a idéia inicial. A definição e escolhas de projeto foram desenvolvidos em conjunto com os programadores também, para ter um processo com menos impedimentos e ter soluções mais integradas.
 
-{: .img_small}
 <figure><img src="{{ site.baseurl }}/assets/lupah/lupah_fluxo.png"/></figure>
 
 O resultado final do fluxo possuia apenas uma tela com mapa e suporte a filtros. Ao selecionar uma unidade de saúde era possível visualizar  informações como formas de contato, endereço virtual e traçar rotas ao local.

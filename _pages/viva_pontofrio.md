@@ -7,7 +7,7 @@ categories:
 permalink: viva_pontofrio
 
 ano: 2015
-weight: 2
+weight: 4
 priority: 75
 color: '#b53334'
 
