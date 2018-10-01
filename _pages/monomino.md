@@ -9,7 +9,7 @@ permalink: monomino
 
 ano: 2010
 weight: 1
-priority: 2
+priority: 51
 color: '#78c6dc'
 
 details:

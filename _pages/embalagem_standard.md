@@ -7,7 +7,7 @@ permalink: embalagem_standard
 
 ano: 2012
 weight: 2
-priority: 1
+priority: 2
 color: '#e9a17c'
 
 details:
@@ -26,13 +26,6 @@ details:
 <figure><img src="{{ site.baseurl }}/assets/emb/imagem4.jpg"/></figure>
 
 Projeto de embalagem de vidro standard, pensado para pequenas quantidades de produto. O formato interno permite um bom manuseio do produto contido e se torna um diferencial estético. Partindo do mesmo recipiente, mas acrescentando diferentes acabamentos e utilizando uma tampa não convencional, pode-se obter o destaque desejável. Para exemplificar a abrangência de utilização, três produtos de mercados e caraterísticas bem diferentes foram desenvolvidos:
-
-{: .img_small }
-<figure><img src="{{ site.baseurl }}/assets/emb/esquemat.png"/></figure>
-<figure><img src="{{ site.baseurl }}/assets/emb/imagem1.jpg"/></figure>
-<figure><img src="{{ site.baseurl }}/assets/emb/imagem2.jpg"/></figure>
-<figure><img src="{{ site.baseurl }}/assets/emb/imagem3.jpg"/></figure>
-
 
 <div class="itens">
 	<div class="item">

@@ -66,20 +66,20 @@ As malas deslizam no descarregamento por conta do baixo atrito. Primeiro deve se
 
 ### benefícios
 
-<figure><img class="img_original" src="{{ site.baseurl }}/assets/levar/" class="trs-bounce"/></figure>
+
 #### Operadores de bagagem
 * ergonomia melhorada
 * menos lesões
 * vida de trabalho menos curta
 * melhor auto-estima
 
-<figure><img class="img_original" src="{{ site.baseurl }}/assets/levar/" class="trs-bounce"/></figure>
+
 #### Passageiros
 * recebimento de bagagem mais rápida
 * pertences protegidos
 * companias percebidas como agentes de mudança
 
-<figure><img class="img_original" src="{{ site.baseurl }}/assets/levar/" class="trs-bounce"/></figure>
+
 #### Companhias aéreas
 * menos gastos com bagagens
 * reconhecimento por cuidar das condições de trabalho
